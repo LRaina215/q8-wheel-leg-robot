@@ -1,0 +1,10 @@
+{
+  "target_mm": 50,
+  "train_mass_kg": 6.568505742216555,
+  "friction": 0.64,
+  "seed": 251150,
+  "worlds": 256,
+  "updates": 900,
+  "interface": "33 observations; issued residual = clip(profile(obs) + .72 * ONNX(obs), -1, 1). Use flatjump_policy_io.commands at 500 Hz.",
+  "full_height_pass": "COM rise from first liftoff >= target; all original landing and closure gates"
+}

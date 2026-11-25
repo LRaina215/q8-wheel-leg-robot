@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Q8 R5 flat ground">
+  <compiler angle="radian" inertiafromgeom="false" />
+  <option timestep=".002" integrator="implicitfast" iterations="60" tolerance="1e-9" />
+  <worldbody>
+    <light pos="0 0 1.5" dir="0 0 -1" />
+    <geom name="ground" type="plane" contype="1" conaffinity="2" size="0 0 .05" friction=".75 .005 .0001" rgba=".62 .64 .60 1" />
+    <body name="chassis" pos="0 0 .16">
+      <freejoint name="floating_base" />
+      <inertial mass="3.4536967088743626" pos="0.00951572017 0.00478603028 0.00697343503" diaginertia="0.0315437633 0.0266222455 0.0468839328" />
+      <geom name="belly" type="box" contype="2" conaffinity="1" pos="0 0 -.025" size=".083 .118 .024" rgba=".2 .4 .42 1" />
+      <body name="FL_hip" pos="0.112 0.119 0">
+        <joint name="FL_hip" type="hinge" axis="0 1 0" damping=".025" armature=".0005" range="-0.628318531 0.383972435" />
+        <inertial mass="0.07397419543969626" pos="0.0248203826 0.00740562072 6.86107305e-19" diaginertia="1.24277188e-05 0.000114291818 0.000110535088" />
+        <body name="FL_carrier" pos="0.11 0 0">
+          <joint name="FL_carrier" type="hinge" axis="0 1 0" damping=".025" armature=".00012" />
+          <inertial mass="0.3951598614160262" pos="0.000282604071 -0.00167578647 -0.104258715" diaginertia="0.000932743658 0.00047375203 0.000597853375" />
+          <body name="FL_wheel" pos="0 0.086 -0.11">
+            <joint name="FL_wheel" type="hinge" axis="0 1 0" damping=".015" armature=".00012" />
+            <inertial mass="0.1398282452833074" pos="5.88219239e-18 -0.0155648009 0" diaginertia="0.000151319597 0.000108728145 0.000151271597" />
+            <geom name="FL_tyre" type="cylinder" contype="2" conaffinity="1" size=".05 .0175" quat=".707106781 -.707106781 0 0" friction=".75 .005 .0001" rgba=".16 .16 .18 1" />
+          </body>
+          <geom type="capsule" fromto="0 0 0 0 0.086 -0.11" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+          <site name="FL_bore" pos="0 0 -0.062" size=".002" />
+        </body>
+        <geom type="capsule" fromto="0 0 0 0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+      </body>
+      <body name="FL_follower" pos="0.112 0.119 -0.062">
+        <joint name="FL_follower" type="hinge" axis="0 1 0" damping=".025" armature=".00012" />
+        <inertial mass="0.02761352064237935" pos="0.055 0.013 8.31682587e-19" diaginertia="1.27993423e-06 4.20126029e-05 4.11928941e-05" />
+        <geom type="capsule" fromto="0 0 0 0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+        <site name="FL_pin" pos="0.11 0 0" size=".002" />
+      </body>
+      <body name="FR_hip" pos="0.112 -0.119 0">
+        <joint name="FR_hip" type="hinge" axis="0 1 0" damping=".025" armature=".0005" range="-0.628318531 0.383972435" />
+        <inertial mass="0.07397419543969626" pos="0.0248203826 -0.00740562072 6.86107305e-19" diaginertia="1.24277188e-05 0.000114291818 0.000110535088" />
+        <body name="FR_carrier" pos="0.11 0 0">
+          <joint name="FR_carrier" type="hinge" axis="0 1 0" damping=".025" armature=".00012" />
+          <inertial mass="0.3951598614160262" pos="0.000282604071 0.00167578647 -0.104258715" diaginertia="0.000932743658 0.00047375203 0.000597853375" />
+          <body name="FR_wheel" pos="0 -0.086 -0.11">
+            <joint name="FR_wheel" type="hinge" axis="0 1 0" damping=".015" armature=".00012" />
+            <inertial mass="0.1398282452833074" pos="5.88219239e-18 0.0155648009 0" diaginertia="0.000151319597 0.000108728145 0.000151271597" />
+            <geom name="FR_tyre" type="cylinder" contype="2" conaffinity="1" size=".05 .0175" quat=".707106781 -.707106781 0 0" friction=".75 .005 .0001" rgba=".16 .16 .18 1" />
+          </body>
+          <geom type="capsule" fromto="0 0 0 0 -0.086 -0.11" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+          <site name="FR_bore" pos="0 0 -0.062" size=".002" />
+        </body>
+        <geom type="capsule" fromto="0 0 0 0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+      </body>
+      <body name="FR_follower" pos="0.112 -0.119 -0.062">
+        <joint name="FR_follower" type="hinge" axis="0 1 0" damping=".025" armature=".00012" />
+        <inertial mass="0.02761352064237935" pos="0.055 -0.013 8.31682587e-19" diaginertia="1.27993423e-06 4.20126029e-05 4.11928941e-05" />
+        <geom type="capsule" fromto="0 0 0 0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+        <site name="FR_pin" pos="0.11 0 0" size=".002" />
+      </body>
+      <body name="RL_hip" pos="-0.112 0.119 0">
+        <joint name="RL_hip" type="hinge" axis="0 -1 0" damping=".025" armature=".0005" range="-0.628318531 0.383972435" />
+        <inertial mass="0.07397419543969626" pos="-0.0248203826 0.00740562072 6.86107305e-19" diaginertia="1.24277188e-05 0.000114291818 0.000110535088" />
+        <body name="RL_carrier" pos="-0.11 0 0">
+          <joint name="RL_carrier" type="hinge" axis="0 -1 0" damping=".025" armature=".00012" />
+          <inertial mass="0.3951598614160262" pos="-0.000282604071 -0.00167578647 -0.104258715" diaginertia="0.000932743658 0.00047375203 0.000597853375" />
+          <body name="RL_wheel" pos="0 0.086 -0.11">
+            <joint name="RL_wheel" type="hinge" axis="0 1 0" damping=".015" armature=".00012" />
+            <inertial mass="0.1398282452833074" pos="-5.88219239e-18 -0.0155648009 0" diaginertia="0.000151319597 0.000108728145 0.000151271597" />
+            <geom name="RL_tyre" type="cylinder" contype="2" conaffinity="1" size=".05 .0175" quat=".707106781 -.707106781 0 0" friction=".75 .005 .0001" rgba=".16 .16 .18 1" />
+          </body>
+          <geom type="capsule" fromto="0 0 0 0 0.086 -0.11" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+          <site name="RL_bore" pos="0 0 -0.062" size=".002" />
+        </body>
+        <geom type="capsule" fromto="0 0 0 -0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+      </body>
+      <body name="RL_follower" pos="-0.112 0.119 -0.062">
+        <joint name="RL_follower" type="hinge" axis="0 -1 0" damping=".025" armature=".00012" />
+        <inertial mass="0.02761352064237935" pos="-0.055 0.013 8.31682587e-19" diaginertia="1.27993423e-06 4.20126029e-05 4.11928941e-05" />
+        <geom type="capsule" fromto="0 0 0 -0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+        <site name="RL_pin" pos="-0.11 0 0" size=".002" />
+      </body>
+      <body name="RR_hip" pos="-0.112 -0.119 0">
+        <joint name="RR_hip" type="hinge" axis="0 -1 0" damping=".025" armature=".0005" range="-0.628318531 0.383972435" />
+        <inertial mass="0.07397419543969626" pos="-0.0248203826 -0.00740562072 6.86107305e-19" diaginertia="1.24277188e-05 0.000114291818 0.000110535088" />
+        <body name="RR_carrier" pos="-0.11 0 0">
+          <joint name="RR_carrier" type="hinge" axis="0 -1 0" damping=".025" armature=".00012" />
+          <inertial mass="0.3951598614160262" pos="-0.000282604071 0.00167578647 -0.104258715" diaginertia="0.000932743658 0.00047375203 0.000597853375" />
+          <body name="RR_wheel" pos="0 -0.086 -0.11">
+            <joint name="RR_wheel" type="hinge" axis="0 1 0" damping=".015" armature=".00012" />
+            <inertial mass="0.1398282452833074" pos="-5.88219239e-18 0.0155648009 0" diaginertia="0.000151319597 0.000108728145 0.000151271597" />
+            <geom name="RR_tyre" type="cylinder" contype="2" conaffinity="1" size=".05 .0175" quat=".707106781 -.707106781 0 0" friction=".75 .005 .0001" rgba=".16 .16 .18 1" />
+          </body>
+          <geom type="capsule" fromto="0 0 0 0 -0.086 -0.11" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+          <site name="RR_bore" pos="0 0 -0.062" size=".002" />
+        </body>
+        <geom type="capsule" fromto="0 0 0 -0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+      </body>
+      <body name="RR_follower" pos="-0.112 -0.119 -0.062">
+        <joint name="RR_follower" type="hinge" axis="0 -1 0" damping=".025" armature=".00012" />
+        <inertial mass="0.02761352064237935" pos="-0.055 -0.013 8.31682587e-19" diaginertia="1.27993423e-06 4.20126029e-05 4.11928941e-05" />
+        <geom type="capsule" fromto="0 0 0 -0.11 0 0" size=".006" contype="0" conaffinity="0" rgba=".25 .55 .51 1" />
+        <site name="RR_pin" pos="-0.11 0 0" size=".002" />
+      </body>
+    </body>
+  </worldbody>
+  <equality>
+    <connect name="FL_D" site1="FL_pin" site2="FL_bore" solref=".006 1" />
+    <connect name="FR_D" site1="FR_pin" site2="FR_bore" solref=".006 1" />
+    <connect name="RL_D" site1="RL_pin" site2="RL_bore" solref=".006 1" />
+    <connect name="RR_D" site1="RR_pin" site2="RR_bore" solref=".006 1" />
+  </equality>
+  <actuator>
+    <motor name="FL_hip" joint="FL_hip" ctrlrange="-5.2 5.2" />
+    <motor name="FL_wheel" joint="FL_wheel" ctrlrange="-1 1" />
+    <motor name="FR_hip" joint="FR_hip" ctrlrange="-5.2 5.2" />
+    <motor name="FR_wheel" joint="FR_wheel" ctrlrange="-1 1" />
+    <motor name="RL_hip" joint="RL_hip" ctrlrange="-5.2 5.2" />
+    <motor name="RL_wheel" joint="RL_wheel" ctrlrange="-1 1" />
+    <motor name="RR_hip" joint="RR_hip" ctrlrange="-5.2 5.2" />
+    <motor name="RR_wheel" joint="RR_wheel" ctrlrange="-1 1" />
+  </actuator>
+</mujoco>

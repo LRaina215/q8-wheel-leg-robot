@@ -1,0 +1,6 @@
+# Versions in the Linux environment used for Q8 R5 training and native replay.
+numpy==2.5.5
+mujoco==3.6.0
+mujoco-warp==3.6.0
+warp-lang==1.12.1
+onnx==1.23.2

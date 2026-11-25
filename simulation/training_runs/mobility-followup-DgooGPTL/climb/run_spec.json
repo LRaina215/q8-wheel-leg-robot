@@ -1,0 +1,30 @@
+{
+  "task": "soft_up",
+  "seed": 63112500,
+  "worlds": 192,
+  "updates": 800,
+  "steps_per_episode": 100,
+  "mass_kg": 6.568505742216555,
+  "config": [
+    0.14,
+    0.64,
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    0.0
+  ],
+  "policy_period_s": 0.04,
+  "physics_period_s": 0.002,
+  "cases": [
+    90,
+    120,
+    135,
+    150
+  ],
+  "lane": "climb",
+  "initialized_from": "/home/user/q8_r5_trials/flat-b1AeSzKu/mobility-followup-DgooGPTL/original",
+  "output": "actor_best.onnx plus Controller in follow_env.py with its per-episode state",
+  "recover_protocol": "first variant cued; second variant blind with random impulse time; all final recovery tests are blind"
+}

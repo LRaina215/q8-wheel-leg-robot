@@ -1,0 +1,41 @@
+{
+  "worlds": 224,
+  "updates": 1200,
+  "seed": 241107,
+  "mass_kg": 6.568505742216555,
+  "heights_mm": [
+    60,
+    75,
+    90,
+    100,
+    120,
+    140,
+    150
+  ],
+  "physics_s": 0.002,
+  "policy_s": 0.04,
+  "episode_s": 4.0,
+  "training_starts": "45% ground, 45% axle-split, 10% on top",
+  "full_route_evaluation": "100% ground",
+  "friction": 0.64,
+  "torque_scale": [
+    0.9,
+    1.0
+  ],
+  "yaw_deg": [
+    -3,
+    3
+  ],
+  "edge_estimate_error_mm": [
+    -8,
+    8
+  ],
+  "height_estimate_error_mm": [
+    -4,
+    4
+  ],
+  "control": "33 inputs, two 64-unit tanh layers, eight normalized outputs",
+  "annotations": "single square step; terminal hold 360 ms; 0.8 mm solver residual; 2 N structure contact",
+  "observation": "0:(estimated edge minus estimated base x)*2; 1:y*3; 2:4:R20,R21,R10; 5:6:vx,vy world; 7:9:local angular velocity * .25; 10:13:(hip angle + .12217305)*2; 14:17:hip speed*.2; 18:21:wheel speed*.08; 22:estimated height*10; 23:elapsed/4; 24:31:previous action; 32:max(0,1-abs(obs[0]-.40)*3); clip all to [-5,5]",
+  "actions": "FL FR RL RR; indices 0..3 set hip degrees = -7+29*a; indices 4..7 wheel tread speed m/s = .22+.40*a"
+}

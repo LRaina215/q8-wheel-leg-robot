@@ -1,0 +1,27 @@
+{
+  "task": "drive",
+  "seed": 25112517,
+  "worlds": 160,
+  "updates": 600,
+  "steps_per_episode": 100,
+  "mass_kg": 6.768505742216555,
+  "config": [
+    0.34,
+    0.47,
+    [
+      0.004,
+      -0.003,
+      0.003
+    ],
+    0.0
+  ],
+  "policy_period_s": 0.04,
+  "physics_period_s": 0.002,
+  "cases": [
+    -1,
+    1
+  ],
+  "initialized_from": "small residual over analytic reference",
+  "output": "actor_best.onnx plus commands() in night_tasks.py; native tests use the same decoder",
+  "recover_protocol": "first variant cued; second variant blind with random impulse time; all final recovery tests are blind"
+}

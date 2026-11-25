@@ -1,0 +1,27 @@
+# Publish training code, model definitions, configurations and best weights.
+*
+!*/
+!.gitignore
+!*.py
+!q8_r5_fitted.xml
+!run_spec.json
+!checkpoint_best.npz
+!*_best.onnx
+interim_*.onnx
+__pycache__/
+campaign-SzjNdg5E/
+focused-motion-LiuPHTWJ/
+followup-hYpzkKDJ/
+training_actions/
+training_v1/
+ppo-direct-XHRiY40T/
+ppo-staged-bQO3koFU/
+ppo-jumpA-ruJw7Day/
+ppo-jumpB-y87CN5Ke/
+ppo-highjump-fUGFdEDX/search/
+ppo-highjump-fUGFdEDX/trial/
+ppo-highjump-fUGFdEDX/step_video/
+stage-climb-y1o529Z5/pilot/
+mobility-followup-DgooGPTL/frozen/
+mobility-followup-DgooGPTL/snap_direct/
+mobility-followup-DgooGPTL/snap_phase/

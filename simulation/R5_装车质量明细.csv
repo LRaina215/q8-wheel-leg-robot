@@ -1,0 +1,558 @@
+﻿部件,实例,刚体,质量g,局部质心x mm,y mm,z mm,依据类型,备注,配置,URDF链接名,项目来源
+Chassis,Chassis_1,chassis,297.73367,0.0524,-0.0398,-30.2121,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,chassis,source/body_step/R5_Chassis.step
+Deck,Deck_1,chassis,182.51697,32.4951,-4.8958,34.0131,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Deck_1,source/body_step/R5_Deck.step
+XT_saddle,XT_saddle_1,chassis,19.64921,101.7679,0.0,74.5704,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_XT_saddle_1,source/body_step/R5_XT_saddle.step
+Astra_saddle,Astra_saddle_1,chassis,2.11294,125.4784,74.0,38.3754,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Astra_saddle_1,source/body_step/R5_Astra_saddle.step
+Astra_saddle,Astra_saddle_2,chassis,2.11294,125.4784,-74.0,38.3754,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Astra_saddle_2,source/body_step/R5_Astra_saddle.step
+Bridge_tray,Bridge_tray_1,chassis,12.39483,65.8983,65.0,37.8483,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Bridge_tray_1,source/body_step/R5_Bridge_tray.step
+Bridge_tray,Bridge_tray_2,chassis,12.39483,58.8983,-63.0,37.8483,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Bridge_tray_2,source/body_step/R5_Bridge_tray.step
+Msp,Msp_1,chassis,0.31605,-70.0,-53.8,40.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_Msp_1,
+Msp,Msp_2,chassis,0.31605,-34.0,-53.8,40.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_Msp_2,
+Msp,Msp_3,chassis,0.31605,-70.0,-89.8,40.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_Msp_3,
+Msp,Msp_4,chassis,0.31605,-34.0,-89.8,40.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_Msp_4,
+Xsp,Xsp_1,chassis,3.03518,73.0,25.0,54.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,首车,item_Xsp_1,source/body_step/R5_Xsp.step
+Xsp,Xsp_2,chassis,3.03518,101.0,25.0,54.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,首车,item_Xsp_2,source/body_step/R5_Xsp.step
+Xsp,Xsp_3,chassis,3.03518,73.0,-25.0,54.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,首车,item_Xsp_3,source/body_step/R5_Xsp.step
+Xsp,Xsp_4,chassis,3.03518,101.0,-25.0,54.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,首车,item_Xsp_4,source/body_step/R5_Xsp.step
+Lsp100,Lsp100_1,chassis,13.71554,-73.0,108.0,86.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,MID选装,,source/body_step/R5_Lsp100.step
+Lsp100,Lsp100_2,chassis,13.71554,-4.0,108.0,86.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,MID选装,,source/body_step/R5_Lsp100.step
+Lsp100,Lsp100_3,chassis,13.71554,-73.0,-108.0,86.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,MID选装,,source/body_step/R5_Lsp100.step
+Lsp100,Lsp100_4,chassis,13.71554,-4.0,-108.0,86.0,R5 STEP体积估算,有效密度 2.7 g/cm³；无实物称重,MID选装,,source/body_step/R5_Lsp100.step
+MID_fit,MID_fit_1,chassis,43.50599,-38.5,-0.0,138.0,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,MID选装,,source/body_step/R5_MID_fit.step
+Jetson_Orin_Nano,Jetson_Orin_Nano_1,chassis,186.0,-19.4384,50.0,58.383,厂家标重,按 NVIDIA Orin Nano 8GB 开发套件参考装车，整套174 g；用户板卡版本及存储组合未独立识别。；本行包含12 g SSD留量,首车,item_Jetson_Orin_Nano_1,https://forums.developer.nvidia.com/t/jetson-orin-nano-hw-faq/249118
+MC02,MC02_1,chassis,19.5,-52.0,-63.9422,47.8186,厂家标重,达妙MC02 V1.1手册第2页；19.5 g。,首车,item_MC02_1,https://github.com/dmBots/DM-MC02
+XT_M60,XT_M60_1,chassis,123.0,109.0,0.0,108.5,厂家标重,芯探 XT-M60 基础版123 g；Pro、Neo有各自独立规格。外接线束单列。,首车,item_XT_M60_1,https://www.toffuture.com/products/m60
+Astra_Pro_Plus,Astra_Pro_Plus_1,chassis,150.0,126.5,0.0,54.0,装车估算,奥比给 Astra 系列标准形态310 g；厂家未拆分底座、线缆与机头。工程账保留去底座机头150 g，不能认作厂家标重。,首车,item_Astra_Pro_Plus_1,https://www.orbbec.com/products/structured-light-camera/astra-series/
+Tattu_2200_6S,Tattu_2200_6S_1,chassis,358.0,-26.0,31.0,-19.0,厂家标重,国网页同货号358 g、含电池端XT60；国际页346±20 g。不再另计电池端插头。,首车,item_Tattu_2200_6S_1,https://www.tattuworld.cn/products/tattu-r-line-5-0-2200mah-6s1p-22-2v-150c-fpv-lipo-battery.html
+MID360,MID360_1,chassis,265.0,-42.4315,0.0,170.0486,厂家标重,Livox MID-360 约265 g，首车只预留。,MID选装,,https://www.livoxtech.com/cn/mid-360/specs
+BuckTray,BuckTray_1,chassis,12.26909,-14.394,-61.049,-43.342,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_BuckTray_1,source/body_step/R5_BuckTray.step
+YourCee20,Buck_rear,chassis,90.0,-45.0,-60.6581,-32.0942,同类板估重,商品外形60×53×30 mm；两块独立调12 V，每块参考80–100 g，取90 g；自带散热片。,首车,item_Buck_rear,data/taobao/优信300W_规格.jpg | https://www.qixinwei-pcba.com/300w-20a-dc-dc-buck-converter-cc-cv-led-driver-module-p6980165.html
+YourCee20,Buck_front,chassis,90.0,19.0,-60.6581,-32.0942,同类板估重,商品外形60×53×30 mm；两块独立调12 V，每块参考80–100 g，取90 g；自带散热片。,首车,item_Buck_front,data/taobao/优信300W_规格.jpg | https://www.qixinwei-pcba.com/300w-20a-dc-dc-buck-converter-cc-cv-led-driver-module-p6980165.html
+AuxBuck,AuxBuck_1,chassis,82.0,-37.0,81.0,-35.0,装车估算,恩珀15 V/5 A淘宝有对应选项；未查到能对应这个壳体及子项的净重，沿用82 g。,首车,item_AuxBuck_1,https://detail.tmall.com/item.htm?id=836129375401
+ANS_H,ANS_H_1,chassis,56.0,49.0,92.0,-32.1,装车估算,ANS-H无引线保险座和40 A MIDI保险片合计留56 g。公开尺寸可匹配，未公开这套净重。,首车,item_ANS_H_1,https://www.ampfort.net/product/cn/baoxiansizuo.html
+Wago615,Wago615_1,chassis,7.1,50.0,51.0,-40.1,厂家标重,221-615 五位，单只7.1 g。,首车,item_Wago615_1,https://assets.cef.co.uk/downloads/pdg/wago_221-615_datasheet/wago_221-615_datasheet.pdf
+Wago615,Wago615_2,chassis,7.1,72.0,51.0,-40.1,厂家标重,221-615 五位，单只7.1 g。,首车,item_Wago615_2,https://assets.cef.co.uk/downloads/pdg/wago_221-615_datasheet/wago_221-615_datasheet.pdf
+AuxDist,AuxDist_1,chassis,4.0,64.0,-11.0,-40.925,厂家标重,221-415 五位，单只4 g。,首车,item_AuxDist_1,https://eurotech.com.au/wp-content/uploads/2023/12/WAGO_221-415en_AU.pdf
+AuxDist,AuxDist_2,chassis,4.0,64.0,-49.0,-40.925,厂家标重,221-415 五位，单只4 g。,首车,item_AuxDist_2,https://eurotech.com.au/wp-content/uploads/2023/12/WAGO_221-415en_AU.pdf
+ZC7112A,ZC7112A_1,chassis,24.0,28.0,3.0,-30.4,装车估算,吉门 ZC-7112A 公开尺寸45×14×29.2 mm，12 AWG。盒体及插片暂计24 g/路，保留的线尾归入总线束。,首车,item_ZC7112A_1,https://www.zeeman.cn/zh/cproduct/holder/2021-06-16/578.html
+ZC7112A,ZC7112A_2,chassis,24.0,28.0,-16.0,-30.4,装车估算,吉门 ZC-7112A 公开尺寸45×14×29.2 mm，12 AWG。盒体及插片暂计24 g/路，保留的线尾归入总线束。,首车,item_ZC7112A_2,https://www.zeeman.cn/zh/cproduct/holder/2021-06-16/578.html
+Driver,Driver_1,chassis,32.0,68.1983,65.0,43.9733,厂家标重,DFRobot DRI0041 每块32 g。,首车,item_Driver_1,https://wiki.dfrobot.com/dri0041/
+Driver,Driver_2,chassis,32.0,61.1983,-63.0,43.9733,厂家标重,DFRobot DRI0041 每块32 g。,首车,item_Driver_2,https://wiki.dfrobot.com/dri0041/
+TXS0108E,TXS0108E_1,chassis,4.0,-20.0,-24.0,42.0,装车估算,厂家给的是芯片规格，整块含排针转接板暂计4 g。,首车,item_TXS0108E_1,https://item.taobao.com/item.htm?id=534591846020
+FFC24_65,FFC24_65_1,chassis,6.0,7.0,-68.0,42.0,装车估算,24P、0.5 mm转接板含装车短排线按一组留6 g；商品无该组合净重。,首车,item_FFC24_65_1,https://uland.taobao.com/coupon/edetail?e=jURW7Ul6vTINfLV8niU3R5TgU2jJNKOfc4SfXBF8mZqv7%2FFbSzM7R3ok449iaWGSYA44U8Fg2kttjOuQ%2BaO3o4XgKLfOshI2fJoW1JVxjota4rBpq3tSHQSxrsuM9JAbFBrRCSANytFMGJQ2jBkJvHKasW0GsMpBsVgTgqA1oZatuqejvcT3zkB4iEnBVm1nx7xYbbBtIL1%2B7VRqfIsJEaeaZgJQxZb%2FfLF8s02h5jYiHLwusucp0%2FYJVpvSeMZhcmkRiciu%2Fb8lM1ZJHcLCJg%3D%3D&app_pvid=59590_33.43.138.191_1980_1795266109932&ptl=floorId:80309;app_pvid:59590_33.43.138.191_1980_1795266109932;tpp_pvid:cc3bf167-8d97-4a61-9602-81a7cc6a5bc5&union_lens=lensId%3AMAPI%401795266110%40212b8abf_0e32_1a1fe32e270_dbdc%4001%40eyJmbG9vcklkIjo4MDMwOX0ie
+USBnet,USBnet_1,chassis,32.0,-78.5,35.0,128.5,装车估算,选装RTL8153带壳网卡，所选具体批次净重未知。,MID选装,,
+B5bolt,B5bolt_1,chassis,4.32,-75.0,121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_1,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_1,chassis,0.44335,-75.0,126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_1,
+B5washer,B5washer_2,chassis,0.44335,-75.0,111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_2,
+B5nut,B5nut_1,chassis,1.65726,-75.0,108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_1,
+B5bolt,B5bolt_2,chassis,4.32,-75.0,121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_2,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_3,chassis,0.44335,-75.0,126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_3,
+B5washer,B5washer_4,chassis,0.44335,-75.0,111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_4,
+B5nut,B5nut_2,chassis,1.65726,-75.0,108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_2,
+B5bolt,B5bolt_3,chassis,4.32,-60.0,121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_3,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_5,chassis,0.44335,-60.0,126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_5,
+B5washer,B5washer_6,chassis,0.44335,-60.0,111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_6,
+B5nut,B5nut_3,chassis,1.65726,-60.0,108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_3,
+B5bolt,B5bolt_4,chassis,4.32,-60.0,121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_4,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_7,chassis,0.44335,-60.0,126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_7,
+B5washer,B5washer_8,chassis,0.44335,-60.0,111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_8,
+B5nut,B5nut_4,chassis,1.65726,-60.0,108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_4,
+B5bolt,B5bolt_5,chassis,4.32,60.0,121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_5,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_9,chassis,0.44335,60.0,126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_9,
+B5washer,B5washer_10,chassis,0.44335,60.0,111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_10,
+B5nut,B5nut_5,chassis,1.65726,60.0,108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_5,
+B5bolt,B5bolt_6,chassis,4.32,60.0,121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_6,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_11,chassis,0.44335,60.0,126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_11,
+B5washer,B5washer_12,chassis,0.44335,60.0,111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_12,
+B5nut,B5nut_6,chassis,1.65726,60.0,108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_6,
+B5bolt,B5bolt_7,chassis,4.32,75.0,121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_7,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_13,chassis,0.44335,75.0,126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_13,
+B5washer,B5washer_14,chassis,0.44335,75.0,111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_14,
+B5nut,B5nut_7,chassis,1.65726,75.0,108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_7,
+B5bolt,B5bolt_8,chassis,4.32,75.0,121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_8,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_15,chassis,0.44335,75.0,126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_15,
+B5washer,B5washer_16,chassis,0.44335,75.0,111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_16,
+B5nut,B5nut_8,chassis,1.65726,75.0,108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_8,
+B5bolt,B5bolt_9,chassis,4.32,-75.0,-121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_9,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_17,chassis,0.44335,-75.0,-126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_17,
+B5washer,B5washer_18,chassis,0.44335,-75.0,-111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_18,
+B5nut,B5nut_9,chassis,1.65726,-75.0,-108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_9,
+B5bolt,B5bolt_10,chassis,4.32,-75.0,-121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_10,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_19,chassis,0.44335,-75.0,-126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_19,
+B5washer,B5washer_20,chassis,0.44335,-75.0,-111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_20,
+B5nut,B5nut_10,chassis,1.65726,-75.0,-108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_10,
+B5bolt,B5bolt_11,chassis,4.32,-60.0,-121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_11,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_21,chassis,0.44335,-60.0,-126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_21,
+B5washer,B5washer_22,chassis,0.44335,-60.0,-111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_22,
+B5nut,B5nut_11,chassis,1.65726,-60.0,-108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_11,
+B5bolt,B5bolt_12,chassis,4.32,-60.0,-121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_12,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_23,chassis,0.44335,-60.0,-126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_23,
+B5washer,B5washer_24,chassis,0.44335,-60.0,-111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_24,
+B5nut,B5nut_12,chassis,1.65726,-60.0,-108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_12,
+B5bolt,B5bolt_13,chassis,4.32,60.0,-121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_13,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_25,chassis,0.44335,60.0,-126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_25,
+B5washer,B5washer_26,chassis,0.44335,60.0,-111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_26,
+B5nut,B5nut_13,chassis,1.65726,60.0,-108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_13,
+B5bolt,B5bolt_14,chassis,4.32,60.0,-121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_14,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_27,chassis,0.44335,60.0,-126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_27,
+B5washer,B5washer_28,chassis,0.44335,60.0,-111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_28,
+B5nut,B5nut_14,chassis,1.65726,60.0,-108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_14,
+B5bolt,B5bolt_15,chassis,4.32,75.0,-121.3519,-62.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_15,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_29,chassis,0.44335,75.0,-126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_29,
+B5washer,B5washer_30,chassis,0.44335,75.0,-111.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_30,
+B5nut,B5nut_15,chassis,1.65726,75.0,-108.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_15,
+B5bolt,B5bolt_16,chassis,4.32,75.0,-121.3519,12.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M5×22 在20与25 mm之间插值，约4.32 g。,首车,item_B5bolt_16,https://www.fullerkr.com/collections/din-912-weight-chart
+B5washer,B5washer_31,chassis,0.44335,75.0,-126.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_31,
+B5washer,B5washer_32,chassis,0.44335,75.0,-111.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5washer_32,
+B5nut,B5nut_16,chassis,1.65726,75.0,-108.5,12.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_B5nut_16,
+JetClamp,Jet_clamp_1,chassis,1.32574,-54.0,104.4212,42.5449,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Jet_clamp_1,source/body_step/R5_JetClamp.step
+JetClamp,Jet_clamp_2,chassis,1.32574,14.0,104.4212,42.5449,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Jet_clamp_2,source/body_step/R5_JetClamp.step
+JetClamp,Jet_clamp_3,chassis,1.32574,-54.0,-4.4212,42.5449,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Jet_clamp_3,source/body_step/R5_JetClamp.step
+JetClamp,Jet_clamp_4,chassis,1.32574,14.0,-4.4212,42.5449,R5 STEP体积估算,有效密度 1.04 g/cm³；无实物称重,首车,item_Jet_clamp_4,source/body_step/R5_JetClamp.step
+B4x16,Deck_S1,chassis,2.78675,-65.0,106.5,32.3363,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_S1,source/body_step/R5_B4x16.step
+Nut4,Deck_N1,chassis,0.74396,-65.0,106.5,23.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_N1,source/body_step/R5_Nut4.step
+B4x16,Deck_S2,chassis,2.78675,-15.0,106.5,32.3363,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_S2,source/body_step/R5_B4x16.step
+Nut4,Deck_N2,chassis,0.74396,-15.0,106.5,23.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_N2,source/body_step/R5_Nut4.step
+B4x16,Deck_S3,chassis,2.78675,65.0,106.5,32.3363,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_S3,source/body_step/R5_B4x16.step
+Nut4,Deck_N3,chassis,0.74396,65.0,106.5,23.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_N3,source/body_step/R5_Nut4.step
+B4x16,Deck_S4,chassis,2.78675,-65.0,-106.5,32.3363,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_S4,source/body_step/R5_B4x16.step
+Nut4,Deck_N4,chassis,0.74396,-65.0,-106.5,23.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_N4,source/body_step/R5_Nut4.step
+B4x16,Deck_S5,chassis,2.78675,-15.0,-106.5,32.3363,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_S5,source/body_step/R5_B4x16.step
+Nut4,Deck_N5,chassis,0.74396,-15.0,-106.5,23.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_N5,source/body_step/R5_Nut4.step
+B4x16,Deck_S6,chassis,2.78675,65.0,-106.5,32.3363,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_S6,source/body_step/R5_B4x16.step
+Nut4,Deck_N6,chassis,0.74396,65.0,-106.5,23.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Deck_N6,source/body_step/R5_Nut4.step
+B3x22,Jet_S1,chassis,1.78025,-54.0,106.5,43.4286,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_S1,source/body_step/R5_B3x22.step
+Nut3,Jet_N1,chassis,0.35681,-54.0,106.5,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_N1,source/body_step/R5_Nut3.step
+B3x22,Jet_S2,chassis,1.78025,14.0,106.5,43.4286,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_S2,source/body_step/R5_B3x22.step
+Nut3,Jet_N2,chassis,0.35681,14.0,106.5,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_N2,source/body_step/R5_Nut3.step
+B3x22,Jet_S3,chassis,1.78025,-54.0,-6.5,43.4286,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_S3,source/body_step/R5_B3x22.step
+Nut3,Jet_N3,chassis,0.35681,-54.0,-6.5,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_N3,source/body_step/R5_Nut3.step
+B3x22,Jet_S4,chassis,1.78025,14.0,-6.5,43.4286,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_S4,source/body_step/R5_B3x22.step
+Nut3,Jet_N4,chassis,0.35681,14.0,-6.5,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Jet_N4,source/body_step/R5_Nut3.step
+B2x16,MC_S1,chassis,0.57264,-70.0,-53.8,37.2016,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_S1,source/body_step/R5_B2x16.step
+Nut2,MC_N1,chassis,0.13298,-70.0,-53.8,46.612,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_N1,source/body_step/R5_Nut2.step
+B2x16,MC_S2,chassis,0.57264,-34.0,-53.8,37.2016,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_S2,source/body_step/R5_B2x16.step
+Nut2,MC_N2,chassis,0.13298,-34.0,-53.8,46.612,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_N2,source/body_step/R5_Nut2.step
+B2x16,MC_S3,chassis,0.57264,-70.0,-89.8,37.2016,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_S3,source/body_step/R5_B2x16.step
+Nut2,MC_N3,chassis,0.13298,-70.0,-89.8,46.612,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_N3,source/body_step/R5_Nut2.step
+B2x16,MC_S4,chassis,0.57264,-34.0,-89.8,37.2016,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_S4,source/body_step/R5_B2x16.step
+Nut2,MC_N4,chassis,0.13298,-34.0,-89.8,46.612,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_MC_N4,source/body_step/R5_Nut2.step
+B3x8,XT_upper_S1,chassis,1.00341,73.0,25.0,75.0668,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_upper_S1,source/body_step/R5_B3x8.step
+B3x8,XT_upper_S2,chassis,1.00341,101.0,25.0,75.0668,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_upper_S2,source/body_step/R5_B3x8.step
+B3x8,XT_upper_S3,chassis,1.00341,73.0,-25.0,75.0668,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_upper_S3,source/body_step/R5_B3x8.step
+B3x8,XT_upper_S4,chassis,1.00341,101.0,-25.0,75.0668,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_upper_S4,source/body_step/R5_B3x8.step
+B3x8,XT_lower_S1,chassis,1.00341,73.0,25.0,32.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_lower_S1,source/body_step/R5_B3x8.step
+B3x8,XT_lower_S2,chassis,1.00341,101.0,25.0,32.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_lower_S2,source/body_step/R5_B3x8.step
+B3x8,XT_lower_S3,chassis,1.00341,73.0,-25.0,32.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_lower_S3,source/body_step/R5_B3x8.step
+B3x8,XT_lower_S4,chassis,1.00341,101.0,-25.0,32.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_XT_lower_S4,source/body_step/R5_B3x8.step
+B3x12,Driver_S1,chassis,1.22537,99.0,83.0,35.9245,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_S1,source/body_step/R5_B3x12.step
+Nut3,Driver_N1,chassis,0.35681,99.0,83.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_N1,source/body_step/R5_Nut3.step
+B3x12,Driver_S2,chassis,1.22537,99.0,47.0,35.9245,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_S2,source/body_step/R5_B3x12.step
+Nut3,Driver_N2,chassis,0.35681,99.0,47.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_N2,source/body_step/R5_Nut3.step
+B3x12,Driver_S3,chassis,1.22537,92.0,-45.0,35.9245,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_S3,source/body_step/R5_B3x12.step
+Nut3,Driver_N3,chassis,0.35681,92.0,-45.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_N3,source/body_step/R5_Nut3.step
+B3x12,Driver_S4,chassis,1.22537,92.0,-81.0,35.9245,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_S4,source/body_step/R5_B3x12.step
+Nut3,Driver_N4,chassis,0.35681,92.0,-81.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Driver_N4,source/body_step/R5_Nut3.step
+Flat3x10,Astra_S1,chassis,0.66586,111.0,74.0,34.7552,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_S1,source/body_step/R5_Flat3x10.step
+Nut3,Astra_N1,chassis,0.35681,111.0,74.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_N1,source/body_step/R5_Nut3.step
+Flat3x10,Astra_S2,chassis,0.66586,142.0,74.0,34.7552,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_S2,source/body_step/R5_Flat3x10.step
+Nut3,Astra_N2,chassis,0.35681,142.0,74.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_N2,source/body_step/R5_Nut3.step
+Flat3x10,Astra_S3,chassis,0.66586,111.0,-74.0,34.7552,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_S3,source/body_step/R5_Flat3x10.step
+Nut3,Astra_N3,chassis,0.35681,111.0,-74.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_N3,source/body_step/R5_Nut3.step
+Flat3x10,Astra_S4,chassis,0.66586,142.0,-74.0,34.7552,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_S4,source/body_step/R5_Flat3x10.step
+Nut3,Astra_N4,chassis,0.35681,142.0,-74.0,30.8,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Astra_N4,source/body_step/R5_Nut3.step
+B3x12,Power_S1,chassis,1.22537,-30.0,-11.0,-44.5755,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Power_S1,source/body_step/R5_B3x12.step
+Nut3,Power_N1,chassis,0.35681,-30.0,-11.0,-50.2,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Power_N1,source/body_step/R5_Nut3.step
+B3x12,Power_S2,chassis,1.22537,-30.0,-107.5,-44.5755,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Power_S2,source/body_step/R5_B3x12.step
+Nut3,Power_N2,chassis,0.35681,-30.0,-107.5,-50.2,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Power_N2,source/body_step/R5_Nut3.step
+B3x12,Power_S3,chassis,1.22537,52.0,-72.0,-44.5755,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Power_S3,source/body_step/R5_B3x12.step
+Nut3,Power_N3,chassis,0.35681,52.0,-72.0,-50.2,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,首车,item_Power_N3,source/body_step/R5_Nut3.step
+B4x10,MID_columns_lower_S1,chassis,2.19487,-73.0,108.0,33.1461,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_lower_S2,chassis,2.19487,-4.0,108.0,33.1461,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_lower_S3,chassis,2.19487,-73.0,-108.0,33.1461,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_lower_S4,chassis,2.19487,-4.0,-108.0,33.1461,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_upper_S1,chassis,2.19487,-73.0,108.0,138.8539,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_upper_S2,chassis,2.19487,-4.0,108.0,138.8539,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_upper_S3,chassis,2.19487,-73.0,-108.0,138.8539,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B4x10,MID_columns_upper_S4,chassis,2.19487,-4.0,-108.0,138.8539,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B4x10.step
+B3x8,MID_sensor_S1,chassis,1.00341,-62.5,18.0,136.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B3x8.step
+B3x8,MID_sensor_S2,chassis,1.00341,-14.5,18.0,136.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B3x8.step
+B3x8,MID_sensor_S3,chassis,1.00341,-62.5,-18.0,136.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B3x8.step
+B3x8,MID_sensor_S4,chassis,1.00341,-14.5,-18.0,136.9332,R5 STEP体积估算,有效密度 7.85 g/cm³；无实物称重,MID选装,,source/body_step/R5_B3x8.step
+P01,FL_P01_0,chassis,42.5895,93.2708,121.9903,-24.6876,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FL_P01_0,data/a1_filament.json
+M01,FL_M01_1,chassis,350.0,112.0,91.0765,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_FL_M01_1,https://github.com/dmBots/DM-J4310M-2EC
+P02,FL_P02_2,FL_hip,35.576,38.7265,11.679,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,FL_hip,data/a1_filament.json
+P03,FL_P03_3,FL_follower,20.3395,55.0,13.0,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,FL_follower,data/a1_filament.json
+P04,FL_P04_4,FL_carrier,28.5745,0.3276,2.6783,-65.5812,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,FL_carrier,data/a1_filament.json
+P05,FL_P05_5,FL_carrier,40.0825,1.9046,45.0,-113.0912,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FL_P05_5,data/a1_filament.json
+M02,FL_M02_6,FL_carrier,205.0,-0.0,-29.251,-116.8737,厂家标重,FIT0403 12 V，含减速箱和编码器。,首车,item_FL_M02_6,https://wiki.dfrobot.com/fit0403
+H01,FL_H01_7,FL_wheel,18.555,-0.0,-66.25,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,FL_wheel,
+H02,FL_H02_8,FL_wheel,23.675,0.0,-34.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H02_8,
+XT100_Tyre,FL_XT100_Tyre_9,FL_wheel,58.0,0.0,0.0,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_FL_XT100_Tyre_9,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT100_Rim,FL_XT100_Rim_10,FL_wheel,20.0,0.0,1.6239,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_FL_XT100_Rim_10,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT8_Coupler,FL_XT8_Coupler_11,FL_wheel,12.0,0.0,-1.6742,0.0,同尺寸参照,同类 Ø8/AF12 公布11.5 g；塔克未给重量，取12 g。参照件紧固件计重范围也未说明。,首车,item_FL_XT8_Coupler_11,https://www.open-electronics.org/product/8-mm-shaft-wheel-coupler-12-mm-hex/
+XT8_Screw,FL_XT8_Screw_12,FL_wheel,2.0,0.0,8.6091,0.0,装车估算,中心M4紧固螺钉与径向顶丝合留2 g；按实物决定与铜接头是否合称。,首车,item_FL_XT8_Screw_12,https://www.handsontec.com/dataspecs/Hex%20wheel%20coupling.pdf
+H05,FL_H05_13,FL_wheel,1.3022,-0.0,-24.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H05_13,
+H05,FL_H05_14,FL_wheel,1.3022,-0.0,-16.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H05_14,
+H03,FL_H03_15,FL_carrier,12.0,0.0,37.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_FL_H03_15,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+H03,FL_H03_16,FL_carrier,12.0,0.0,52.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_FL_H03_16,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+P07,FL_P07_17,FL_carrier,2.331,0.0,33.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FL_P07_17,data/a1_filament.json
+P07,FL_P07_18,FL_carrier,2.331,0.0,57.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FL_P07_18,data/a1_filament.json
+S06,FL_S06_19,FL_carrier,1.9,0.0,43.6016,-93.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S06_19,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,FL_H14_20,FL_carrier,0.4011,0.0,59.2,-93.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H14_20,
+S06,FL_S06_21,FL_carrier,1.9,-14.7224,43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S06_21,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,FL_H14_22,FL_carrier,0.4011,-14.7224,59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H14_22,
+S06,FL_S06_23,FL_carrier,1.9,14.7224,43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S06_23,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,FL_H14_24,FL_carrier,0.4011,14.7224,59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H14_24,
+H05,FL_H05_25,FL_wheel,1.3022,-0.0,-41.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H05_25,
+H06,FL_H06_26,FL_wheel,0.725,0.0,-52.75,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H06_26,
+H07,FL_H07_27,FL_wheel,0.9666,0.0,-29.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H07_27,
+S01,FL_S01_28,chassis,0.8,133.6506,120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S01_28,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FL_S01_29,chassis,0.8,112.0,120.8119,25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S01_29,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FL_S01_30,chassis,0.8,90.3494,120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S01_30,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FL_S01_31,chassis,0.8,90.3494,120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S01_31,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FL_S01_32,chassis,0.8,112.0,120.8119,-25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S01_32,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FL_S01_33,chassis,0.8,133.6506,120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S01_33,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FL_S02_34,FL_hip,1.2,13.5,7.1085,-0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S02_34,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FL_S02_35,FL_hip,1.2,6.75,7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S02_35,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FL_S02_36,FL_hip,1.2,-6.75,7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S02_36,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FL_S02_37,FL_hip,1.2,-13.5,7.1085,0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S02_37,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FL_S02_38,FL_hip,1.2,-6.75,7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S02_38,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FL_S02_39,FL_hip,1.2,6.75,7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S02_39,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FL_S03_40,FL_carrier,0.75,15.5,3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FL_S03_40,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FL_S03_41,FL_carrier,0.75,7.75,3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FL_S03_41,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FL_S03_42,FL_carrier,0.75,-7.75,3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FL_S03_42,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FL_S03_43,FL_carrier,0.75,-15.5,3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FL_S03_43,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FL_S03_44,FL_carrier,0.75,-7.75,3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FL_S03_44,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FL_S03_45,FL_carrier,0.75,7.75,3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FL_S03_45,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FL_H08_46,FL_carrier,2.7445,-23.0,19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H08_46,
+S04,FL_S04_47,FL_carrier,1.8,-23.0,1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S04_47,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FL_S05_48,FL_carrier,3.7,-23.0,45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S05_48,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FL_H08_49,FL_carrier,2.7445,23.0,19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H08_49,
+S04,FL_S04_50,FL_carrier,1.8,23.0,1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S04_50,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FL_S05_51,FL_carrier,3.7,23.0,45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S05_51,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FL_H08_52,FL_carrier,2.7445,-23.0,19.0,-103.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H08_52,
+S04,FL_S04_53,FL_carrier,1.8,-23.0,1.5418,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S04_53,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FL_S05_54,FL_carrier,3.7,-23.0,45.1744,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S05_54,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FL_H08_55,FL_carrier,2.7445,23.0,19.0,-90.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H08_55,
+S04,FL_S04_56,FL_carrier,1.8,23.0,1.5418,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S04_56,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FL_S05_57,FL_carrier,3.7,23.0,45.1744,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FL_S05_57,https://www.fullerkr.com/collections/din-912-weight-chart
+H10,FL_H10_58,chassis,12.309,112.0,133.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H10_58,
+H11,FL_H11_59,chassis,2.6285,112.0,120.0,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H11_59,
+H12,FL_H12_60,chassis,0.4833,112.0,126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H12_60,
+H12,FL_H12_61,chassis,0.4833,112.0,137.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H12_61,
+H09,FL_H09_62,FL_follower,0.3534,0.0,13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H09_62,
+H10,FL_H10_63,FL_carrier,12.309,0.0,14.3668,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H10_63,
+H11,FL_H11_64,FL_carrier,2.6285,0.0,0.5,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H11_64,
+H12,FL_H12_65,FL_carrier,0.4833,0.0,7.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H12_65,
+H12,FL_H12_66,FL_carrier,0.4833,0.0,18.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H12_66,
+H09,FL_H09_67,FL_hip,0.3534,110.0,13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H09_67,
+H10,FL_H10_68,FL_carrier,12.309,0.0,14.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H10_68,
+H11,FL_H11_69,FL_carrier,2.6285,0.0,0.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H11_69,
+H12,FL_H12_70,FL_carrier,0.4833,0.0,7.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H12_70,
+H12,FL_H12_71,FL_carrier,0.4833,0.0,18.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H12_71,
+H09,FL_H09_72,FL_follower,0.3534,110.0,13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FL_H09_72,
+Rotor4310,FL_Rotor4310_73,FL_hip,20.0,0.0,-2.5,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_FL_Rotor4310_73,https://github.com/dmBots/DM-J4310M-2EC
+P01,FR_P01_0,chassis,42.5895,93.2708,-121.9903,-24.6876,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FR_P01_0,data/a1_filament.json
+M01,FR_M01_1,chassis,350.0,112.0,-91.0765,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_FR_M01_1,https://github.com/dmBots/DM-J4310M-2EC
+P02,FR_P02_2,FR_hip,35.576,38.7265,-11.679,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,FR_hip,data/a1_filament.json
+P03,FR_P03_3,FR_follower,20.3395,55.0,-13.0,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,FR_follower,data/a1_filament.json
+P04,FR_P04_4,FR_carrier,28.5745,0.3276,-2.6783,-65.5812,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,FR_carrier,data/a1_filament.json
+P05,FR_P05_5,FR_carrier,40.0825,1.9046,-45.0,-113.0912,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FR_P05_5,data/a1_filament.json
+M02,FR_M02_6,FR_carrier,205.0,-0.0,29.251,-116.8737,厂家标重,FIT0403 12 V，含减速箱和编码器。,首车,item_FR_M02_6,https://wiki.dfrobot.com/fit0403
+H01,FR_H01_7,FR_wheel,18.555,-0.0,66.25,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,FR_wheel,
+H02,FR_H02_8,FR_wheel,23.675,0.0,34.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H02_8,
+XT100_Tyre,FR_XT100_Tyre_9,FR_wheel,58.0,0.0,0.0,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_FR_XT100_Tyre_9,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT100_Rim,FR_XT100_Rim_10,FR_wheel,20.0,0.0,-1.6239,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_FR_XT100_Rim_10,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT8_Coupler,FR_XT8_Coupler_11,FR_wheel,12.0,0.0,1.6742,0.0,同尺寸参照,同类 Ø8/AF12 公布11.5 g；塔克未给重量，取12 g。参照件紧固件计重范围也未说明。,首车,item_FR_XT8_Coupler_11,https://www.open-electronics.org/product/8-mm-shaft-wheel-coupler-12-mm-hex/
+XT8_Screw,FR_XT8_Screw_12,FR_wheel,2.0,0.0,-8.6091,0.0,装车估算,中心M4紧固螺钉与径向顶丝合留2 g；按实物决定与铜接头是否合称。,首车,item_FR_XT8_Screw_12,https://www.handsontec.com/dataspecs/Hex%20wheel%20coupling.pdf
+H05,FR_H05_13,FR_wheel,1.3022,-0.0,24.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H05_13,
+H05,FR_H05_14,FR_wheel,1.3022,-0.0,16.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H05_14,
+H03,FR_H03_15,FR_carrier,12.0,0.0,-37.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_FR_H03_15,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+H03,FR_H03_16,FR_carrier,12.0,0.0,-52.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_FR_H03_16,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+P07,FR_P07_17,FR_carrier,2.331,0.0,-33.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FR_P07_17,data/a1_filament.json
+P07,FR_P07_18,FR_carrier,2.331,0.0,-57.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_FR_P07_18,data/a1_filament.json
+S06,FR_S06_19,FR_carrier,1.9,0.0,-43.6016,-93.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S06_19,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,FR_H14_20,FR_carrier,0.4011,0.0,-59.2,-93.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H14_20,
+S06,FR_S06_21,FR_carrier,1.9,-14.7224,-43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S06_21,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,FR_H14_22,FR_carrier,0.4011,-14.7224,-59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H14_22,
+S06,FR_S06_23,FR_carrier,1.9,14.7224,-43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S06_23,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,FR_H14_24,FR_carrier,0.4011,14.7224,-59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H14_24,
+H05,FR_H05_25,FR_wheel,1.3022,-0.0,41.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H05_25,
+H06,FR_H06_26,FR_wheel,0.725,0.0,52.75,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H06_26,
+H07,FR_H07_27,FR_wheel,0.9666,0.0,29.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H07_27,
+S01,FR_S01_28,chassis,0.8,133.6506,-120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S01_28,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FR_S01_29,chassis,0.8,112.0,-120.8119,25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S01_29,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FR_S01_30,chassis,0.8,90.3494,-120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S01_30,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FR_S01_31,chassis,0.8,90.3494,-120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S01_31,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FR_S01_32,chassis,0.8,112.0,-120.8119,-25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S01_32,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,FR_S01_33,chassis,0.8,133.6506,-120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S01_33,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FR_S02_34,FR_hip,1.2,13.5,-7.1085,-0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S02_34,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FR_S02_35,FR_hip,1.2,6.75,-7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S02_35,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FR_S02_36,FR_hip,1.2,-6.75,-7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S02_36,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FR_S02_37,FR_hip,1.2,-13.5,-7.1085,0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S02_37,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FR_S02_38,FR_hip,1.2,-6.75,-7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S02_38,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,FR_S02_39,FR_hip,1.2,6.75,-7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S02_39,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FR_S03_40,FR_carrier,0.75,15.5,-3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FR_S03_40,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FR_S03_41,FR_carrier,0.75,7.75,-3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FR_S03_41,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FR_S03_42,FR_carrier,0.75,-7.75,-3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FR_S03_42,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FR_S03_43,FR_carrier,0.75,-15.5,-3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FR_S03_43,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FR_S03_44,FR_carrier,0.75,-7.75,-3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FR_S03_44,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,FR_S03_45,FR_carrier,0.75,7.75,-3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_FR_S03_45,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FR_H08_46,FR_carrier,2.7445,-23.0,-19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H08_46,
+S04,FR_S04_47,FR_carrier,1.8,-23.0,-1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S04_47,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FR_S05_48,FR_carrier,3.7,-23.0,-45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S05_48,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FR_H08_49,FR_carrier,2.7445,23.0,-19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H08_49,
+S04,FR_S04_50,FR_carrier,1.8,23.0,-1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S04_50,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FR_S05_51,FR_carrier,3.7,23.0,-45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S05_51,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FR_H08_52,FR_carrier,2.7445,-23.0,-19.0,-103.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H08_52,
+S04,FR_S04_53,FR_carrier,1.8,-23.0,-1.5418,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S04_53,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FR_S05_54,FR_carrier,3.7,-23.0,-45.1744,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S05_54,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,FR_H08_55,FR_carrier,2.7445,23.0,-19.0,-90.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H08_55,
+S04,FR_S04_56,FR_carrier,1.8,23.0,-1.5418,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S04_56,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,FR_S05_57,FR_carrier,3.7,23.0,-45.1744,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_FR_S05_57,https://www.fullerkr.com/collections/din-912-weight-chart
+H10,FR_H10_58,chassis,12.309,112.0,-133.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H10_58,
+H11,FR_H11_59,chassis,2.6285,112.0,-120.0,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H11_59,
+H12,FR_H12_60,chassis,0.4833,112.0,-126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H12_60,
+H12,FR_H12_61,chassis,0.4833,112.0,-137.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H12_61,
+H09,FR_H09_62,FR_follower,0.3534,0.0,-13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H09_62,
+H10,FR_H10_63,FR_carrier,12.309,0.0,-14.3668,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H10_63,
+H11,FR_H11_64,FR_carrier,2.6285,0.0,-0.5,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H11_64,
+H12,FR_H12_65,FR_carrier,0.4833,0.0,-7.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H12_65,
+H12,FR_H12_66,FR_carrier,0.4833,0.0,-18.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H12_66,
+H09,FR_H09_67,FR_hip,0.3534,110.0,-13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H09_67,
+H10,FR_H10_68,FR_carrier,12.309,0.0,-14.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H10_68,
+H11,FR_H11_69,FR_carrier,2.6285,0.0,-0.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H11_69,
+H12,FR_H12_70,FR_carrier,0.4833,0.0,-7.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H12_70,
+H12,FR_H12_71,FR_carrier,0.4833,0.0,-18.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H12_71,
+H09,FR_H09_72,FR_follower,0.3534,110.0,-13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_FR_H09_72,
+Rotor4310,FR_Rotor4310_73,FR_hip,20.0,0.0,2.5,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_FR_Rotor4310_73,https://github.com/dmBots/DM-J4310M-2EC
+P01,RL_P01_0,chassis,42.5895,-93.2708,121.9903,-24.6876,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RL_P01_0,data/a1_filament.json
+M01,RL_M01_1,chassis,350.0,-112.0,91.0765,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_RL_M01_1,https://github.com/dmBots/DM-J4310M-2EC
+P02,RL_P02_2,RL_hip,35.576,-38.7265,11.679,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,RL_hip,data/a1_filament.json
+P03,RL_P03_3,RL_follower,20.3395,-55.0,13.0,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,RL_follower,data/a1_filament.json
+P04,RL_P04_4,RL_carrier,28.5745,-0.3276,2.6783,-65.5812,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,RL_carrier,data/a1_filament.json
+P05,RL_P05_5,RL_carrier,40.0825,-1.9046,45.0,-113.0912,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RL_P05_5,data/a1_filament.json
+M02,RL_M02_6,RL_carrier,205.0,0.0,-29.251,-116.8737,厂家标重,FIT0403 12 V，含减速箱和编码器。,首车,item_RL_M02_6,https://wiki.dfrobot.com/fit0403
+H01,RL_H01_7,RL_wheel,18.555,0.0,-66.25,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,RL_wheel,
+H02,RL_H02_8,RL_wheel,23.675,-0.0,-34.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H02_8,
+XT100_Tyre,RL_XT100_Tyre_9,RL_wheel,58.0,-0.0,0.0,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_RL_XT100_Tyre_9,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT100_Rim,RL_XT100_Rim_10,RL_wheel,20.0,-0.0,1.6239,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_RL_XT100_Rim_10,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT8_Coupler,RL_XT8_Coupler_11,RL_wheel,12.0,-0.0,-1.6742,0.0,同尺寸参照,同类 Ø8/AF12 公布11.5 g；塔克未给重量，取12 g。参照件紧固件计重范围也未说明。,首车,item_RL_XT8_Coupler_11,https://www.open-electronics.org/product/8-mm-shaft-wheel-coupler-12-mm-hex/
+XT8_Screw,RL_XT8_Screw_12,RL_wheel,2.0,-0.0,8.6091,0.0,装车估算,中心M4紧固螺钉与径向顶丝合留2 g；按实物决定与铜接头是否合称。,首车,item_RL_XT8_Screw_12,https://www.handsontec.com/dataspecs/Hex%20wheel%20coupling.pdf
+H05,RL_H05_13,RL_wheel,1.3022,0.0,-24.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H05_13,
+H05,RL_H05_14,RL_wheel,1.3022,0.0,-16.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H05_14,
+H03,RL_H03_15,RL_carrier,12.0,0.0,37.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_RL_H03_15,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+H03,RL_H03_16,RL_carrier,12.0,0.0,52.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_RL_H03_16,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+P07,RL_P07_17,RL_carrier,2.331,-0.0,33.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RL_P07_17,data/a1_filament.json
+P07,RL_P07_18,RL_carrier,2.331,-0.0,57.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RL_P07_18,data/a1_filament.json
+S06,RL_S06_19,RL_carrier,1.9,-0.0,43.6016,-93.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S06_19,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,RL_H14_20,RL_carrier,0.4011,-0.0,59.2,-93.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H14_20,
+S06,RL_S06_21,RL_carrier,1.9,14.7224,43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S06_21,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,RL_H14_22,RL_carrier,0.4011,14.7224,59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H14_22,
+S06,RL_S06_23,RL_carrier,1.9,-14.7224,43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S06_23,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,RL_H14_24,RL_carrier,0.4011,-14.7224,59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H14_24,
+H05,RL_H05_25,RL_wheel,1.3022,0.0,-41.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H05_25,
+H06,RL_H06_26,RL_wheel,0.725,0.0,-52.75,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H06_26,
+H07,RL_H07_27,RL_wheel,0.9666,0.0,-29.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H07_27,
+S01,RL_S01_28,chassis,0.8,-133.6506,120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S01_28,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RL_S01_29,chassis,0.8,-112.0,120.8119,25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S01_29,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RL_S01_30,chassis,0.8,-90.3494,120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S01_30,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RL_S01_31,chassis,0.8,-90.3494,120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S01_31,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RL_S01_32,chassis,0.8,-112.0,120.8119,-25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S01_32,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RL_S01_33,chassis,0.8,-133.6506,120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S01_33,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RL_S02_34,RL_hip,1.2,-13.5,7.1085,-0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S02_34,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RL_S02_35,RL_hip,1.2,-6.75,7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S02_35,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RL_S02_36,RL_hip,1.2,6.75,7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S02_36,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RL_S02_37,RL_hip,1.2,13.5,7.1085,0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S02_37,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RL_S02_38,RL_hip,1.2,6.75,7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S02_38,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RL_S02_39,RL_hip,1.2,-6.75,7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S02_39,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RL_S03_40,RL_carrier,0.75,-15.5,3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RL_S03_40,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RL_S03_41,RL_carrier,0.75,-7.75,3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RL_S03_41,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RL_S03_42,RL_carrier,0.75,7.75,3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RL_S03_42,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RL_S03_43,RL_carrier,0.75,15.5,3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RL_S03_43,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RL_S03_44,RL_carrier,0.75,7.75,3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RL_S03_44,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RL_S03_45,RL_carrier,0.75,-7.75,3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RL_S03_45,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RL_H08_46,RL_carrier,2.7445,23.0,19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H08_46,
+S04,RL_S04_47,RL_carrier,1.8,23.0,1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S04_47,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RL_S05_48,RL_carrier,3.7,23.0,45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S05_48,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RL_H08_49,RL_carrier,2.7445,-23.0,19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H08_49,
+S04,RL_S04_50,RL_carrier,1.8,-23.0,1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S04_50,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RL_S05_51,RL_carrier,3.7,-23.0,45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S05_51,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RL_H08_52,RL_carrier,2.7445,23.0,19.0,-103.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H08_52,
+S04,RL_S04_53,RL_carrier,1.8,23.0,1.5418,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S04_53,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RL_S05_54,RL_carrier,3.7,23.0,45.1744,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S05_54,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RL_H08_55,RL_carrier,2.7445,-23.0,19.0,-90.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H08_55,
+S04,RL_S04_56,RL_carrier,1.8,-23.0,1.5418,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S04_56,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RL_S05_57,RL_carrier,3.7,-23.0,45.1744,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RL_S05_57,https://www.fullerkr.com/collections/din-912-weight-chart
+H10,RL_H10_58,chassis,12.309,-112.0,133.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H10_58,
+H11,RL_H11_59,chassis,2.6285,-112.0,120.0,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H11_59,
+H12,RL_H12_60,chassis,0.4833,-112.0,126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H12_60,
+H12,RL_H12_61,chassis,0.4833,-112.0,137.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H12_61,
+H09,RL_H09_62,RL_follower,0.3534,-0.0,13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H09_62,
+H10,RL_H10_63,RL_carrier,12.309,-0.0,14.3668,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H10_63,
+H11,RL_H11_64,RL_carrier,2.6285,0.0,0.5,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H11_64,
+H12,RL_H12_65,RL_carrier,0.4833,0.0,7.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H12_65,
+H12,RL_H12_66,RL_carrier,0.4833,0.0,18.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H12_66,
+H09,RL_H09_67,RL_hip,0.3534,-110.0,13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H09_67,
+H10,RL_H10_68,RL_carrier,12.309,-0.0,14.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H10_68,
+H11,RL_H11_69,RL_carrier,2.6285,0.0,0.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H11_69,
+H12,RL_H12_70,RL_carrier,0.4833,0.0,7.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H12_70,
+H12,RL_H12_71,RL_carrier,0.4833,0.0,18.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H12_71,
+H09,RL_H09_72,RL_follower,0.3534,-110.0,13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RL_H09_72,
+Rotor4310,RL_Rotor4310_73,RL_hip,20.0,0.0,-2.5,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_RL_Rotor4310_73,https://github.com/dmBots/DM-J4310M-2EC
+P01,RR_P01_0,chassis,42.5895,-93.2708,-121.9903,-24.6876,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RR_P01_0,data/a1_filament.json
+M01,RR_M01_1,chassis,350.0,-112.0,-91.0765,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_RR_M01_1,https://github.com/dmBots/DM-J4310M-2EC
+P02,RR_P02_2,RR_hip,35.576,-38.7265,-11.679,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,RR_hip,data/a1_filament.json
+P03,RR_P03_3,RR_follower,20.3395,-55.0,-13.0,-0.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,RR_follower,data/a1_filament.json
+P04,RR_P04_4,RR_carrier,28.5745,-0.3276,-2.6783,-65.5812,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,RR_carrier,data/a1_filament.json
+P05,RR_P05_5,RR_carrier,40.0825,-1.9046,-45.0,-113.0912,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RR_P05_5,data/a1_filament.json
+M02,RR_M02_6,RR_carrier,205.0,0.0,29.251,-116.8737,厂家标重,FIT0403 12 V，含减速箱和编码器。,首车,item_RR_M02_6,https://wiki.dfrobot.com/fit0403
+H01,RR_H01_7,RR_wheel,18.555,0.0,66.25,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,RR_wheel,
+H02,RR_H02_8,RR_wheel,23.675,-0.0,34.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H02_8,
+XT100_Tyre,RR_XT100_Tyre_9,RR_wheel,58.0,-0.0,0.0,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_RR_XT100_Tyre_9,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT100_Rim,RR_XT100_Rim_10,RR_wheel,20.0,-0.0,-1.6239,0.0,商品标重的工程拆分,软胎与ABS轮辋合计78 g，铜接头另计,首车,item_RR_XT100_Rim_10,https://item.taobao.com/item.htm?id=764659136242&skuId=6021439206463
+XT8_Coupler,RR_XT8_Coupler_11,RR_wheel,12.0,-0.0,1.6742,0.0,同尺寸参照,同类 Ø8/AF12 公布11.5 g；塔克未给重量，取12 g。参照件紧固件计重范围也未说明。,首车,item_RR_XT8_Coupler_11,https://www.open-electronics.org/product/8-mm-shaft-wheel-coupler-12-mm-hex/
+XT8_Screw,RR_XT8_Screw_12,RR_wheel,2.0,-0.0,-8.6091,0.0,装车估算,中心M4紧固螺钉与径向顶丝合留2 g；按实物决定与铜接头是否合称。,首车,item_RR_XT8_Screw_12,https://www.handsontec.com/dataspecs/Hex%20wheel%20coupling.pdf
+H05,RR_H05_13,RR_wheel,1.3022,0.0,24.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H05_13,
+H05,RR_H05_14,RR_wheel,1.3022,0.0,16.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H05_14,
+H03,RR_H03_15,RR_carrier,12.0,0.0,-37.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_RR_H03_15,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+H03,RR_H03_16,RR_carrier,12.0,0.0,-52.5,-110.0,同尺寸参照,以 SKF 608-2RSH 12 g 为同尺寸双密封轴承参照；采购为国产 608-2RS。,首车,item_RR_H03_16,https://www.tme.eu/Document/83a59906c97cb2ff6c50c795411b45d2/SKF608-2RSH.pdf
+P07,RR_P07_17,RR_carrier,2.331,-0.0,-33.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RR_P07_17,data/a1_filament.json
+P07,RR_P07_18,RR_carrier,2.331,-0.0,-57.0,-110.0,A1切片,PETG HF，按成品路径长度、1.75 mm料径及1.27 g/cm³计算；排除支撑、裙边及备件。,首车,item_RR_P07_18,data/a1_filament.json
+S06,RR_S06_19,RR_carrier,1.9,-0.0,-43.6016,-93.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S06_19,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,RR_H14_20,RR_carrier,0.4011,-0.0,-59.2,-93.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H14_20,
+S06,RR_S06_21,RR_carrier,1.9,14.7224,-43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S06_21,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,RR_H14_22,RR_carrier,0.4011,14.7224,-59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H14_22,
+S06,RR_S06_23,RR_carrier,1.9,-14.7224,-43.6016,-118.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S06_23,https://www.fullerkr.com/collections/din-912-weight-chart
+H14,RR_H14_24,RR_carrier,0.4011,-14.7224,-59.2,-118.5,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H14_24,
+H05,RR_H05_25,RR_wheel,1.3022,0.0,41.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H05_25,
+H06,RR_H06_26,RR_wheel,0.725,0.0,52.75,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H06_26,
+H07,RR_H07_27,RR_wheel,0.9666,0.0,29.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H07_27,
+S01,RR_S01_28,chassis,0.8,-133.6506,-120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S01_28,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RR_S01_29,chassis,0.8,-112.0,-120.8119,25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S01_29,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RR_S01_30,chassis,0.8,-90.3494,-120.8119,12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S01_30,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RR_S01_31,chassis,0.8,-90.3494,-120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S01_31,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RR_S01_32,chassis,0.8,-112.0,-120.8119,-25.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S01_32,https://www.fullerkr.com/collections/din-912-weight-chart
+S01,RR_S01_33,chassis,0.8,-133.6506,-120.8119,-12.5,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S01_33,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RR_S02_34,RR_hip,1.2,-13.5,-7.1085,-0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S02_34,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RR_S02_35,RR_hip,1.2,-6.75,-7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S02_35,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RR_S02_36,RR_hip,1.2,6.75,-7.1085,11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S02_36,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RR_S02_37,RR_hip,1.2,13.5,-7.1085,0.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S02_37,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RR_S02_38,RR_hip,1.2,6.75,-7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S02_38,https://www.fullerkr.com/collections/din-912-weight-chart
+S02,RR_S02_39,RR_hip,1.2,-6.75,-7.1085,-11.6913,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S02_39,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RR_S03_40,RR_carrier,0.75,-15.5,-3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RR_S03_40,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RR_S03_41,RR_carrier,0.75,-7.75,-3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RR_S03_41,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RR_S03_42,RR_carrier,0.75,7.75,-3.1322,-103.5766,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RR_S03_42,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RR_S03_43,RR_carrier,0.75,15.5,-3.1322,-117.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RR_S03_43,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RR_S03_44,RR_carrier,0.75,7.75,-3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RR_S03_44,https://www.fullerkr.com/collections/din-912-weight-chart
+S03,RR_S03_45,RR_carrier,0.75,-7.75,-3.1322,-130.4234,同尺寸参照,DIN 912/ISO 4762 标准件质量表。M3×7 在6与8 mm之间插值。,首车,item_RR_S03_45,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RR_H08_46,RR_carrier,2.7445,23.0,-19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H08_46,
+S04,RR_S04_47,RR_carrier,1.8,23.0,-1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S04_47,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RR_S05_48,RR_carrier,3.7,23.0,-45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S05_48,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RR_H08_49,RR_carrier,2.7445,-23.0,-19.0,-130.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H08_49,
+S04,RR_S04_50,RR_carrier,1.8,-23.0,-1.5418,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S04_50,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RR_S05_51,RR_carrier,3.7,-23.0,-45.1744,-130.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S05_51,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RR_H08_52,RR_carrier,2.7445,23.0,-19.0,-103.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H08_52,
+S04,RR_S04_53,RR_carrier,1.8,23.0,-1.5418,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S04_53,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RR_S05_54,RR_carrier,3.7,23.0,-45.1744,-103.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S05_54,https://www.fullerkr.com/collections/din-912-weight-chart
+H08,RR_H08_55,RR_carrier,2.7445,-23.0,-19.0,-90.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H08_55,
+S04,RR_S04_56,RR_carrier,1.8,-23.0,-1.5418,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S04_56,https://www.fullerkr.com/collections/din-912-weight-chart
+S05,RR_S05_57,RR_carrier,3.7,-23.0,-45.1744,-90.0,同尺寸参照,DIN 912/ISO 4762 标准件质量表。按对应规格千只重折算。,首车,item_RR_S05_57,https://www.fullerkr.com/collections/din-912-weight-chart
+H10,RR_H10_58,chassis,12.309,-112.0,-133.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H10_58,
+H11,RR_H11_59,chassis,2.6285,-112.0,-120.0,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H11_59,
+H12,RR_H12_60,chassis,0.4833,-112.0,-126.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H12_60,
+H12,RR_H12_61,chassis,0.4833,-112.0,-137.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H12_61,
+H09,RR_H09_62,RR_follower,0.3534,-0.0,-13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H09_62,
+H10,RR_H10_63,RR_carrier,12.309,-0.0,-14.3668,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H10_63,
+H11,RR_H11_64,RR_carrier,2.6285,0.0,-0.5,-0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H11_64,
+H12,RR_H12_65,RR_carrier,0.4833,0.0,-7.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H12_65,
+H12,RR_H12_66,RR_carrier,0.4833,0.0,-18.5,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H12_66,
+H09,RR_H09_67,RR_hip,0.3534,-110.0,-13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H09_67,
+H10,RR_H10_68,RR_carrier,12.309,-0.0,-14.3668,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H10_68,
+H11,RR_H11_69,RR_carrier,2.6285,0.0,-0.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H11_69,
+H12,RR_H12_70,RR_carrier,0.4833,0.0,-7.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H12_70,
+H12,RR_H12_71,RR_carrier,0.4833,0.0,-18.5,-62.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H12_71,
+H09,RR_H09_72,RR_follower,0.3534,-110.0,-13.0,0.0,尺寸推算,按所列材料密度与CAD净体积估重；螺纹和内部特征简化。,首车,item_RR_H09_72,
+Rotor4310,RR_Rotor4310_73,RR_hip,20.0,0.0,2.5,0.0,厂家整机质量的工程拆分,每角合计370 g，输出法兰暂分20 g,首车,item_RR_Rotor4310_73,https://github.com/dmBots/DM-J4310M-2EC
+Wire,W03_chassis,chassis,6.24,-22.1822,71.4849,-12.1992,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W03_chassis,data/R5_wiring.json
+Wire,W04_chassis,chassis,5.85,-25.1989,66.5551,-3.3017,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W04_chassis,data/R5_wiring.json
+Wire,W05_chassis,chassis,2.73,54.417,84.1016,-7.1477,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W05_chassis,data/R5_wiring.json
+Wire,W06_chassis,chassis,7.02,26.6272,23.2818,-8.2428,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W06_chassis,data/R5_wiring.json
+Wire,W07_chassis,chassis,1.87,22.0738,20.3857,0.1864,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W07_chassis,data/R5_wiring.json
+Wire,W08_chassis,chassis,2.73,54.9155,-6.0239,-18.6294,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W08_chassis,data/R5_wiring.json
+Wire,W09_chassis,chassis,2.55,1.3967,-18.2422,-15.1692,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W09_chassis,data/R5_wiring.json
+Wire,W10_chassis,chassis,3.23,-9.2572,21.2162,-0.0676,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W10_chassis,data/R5_wiring.json
+Wire,W11_chassis,chassis,1.7,27.6029,-24.7258,-16.818,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W11_chassis,data/R5_wiring.json
+Wire,W12_chassis,chassis,3.06,24.5115,14.2066,3.4885,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W12_chassis,data/R5_wiring.json
+Wire,W13_chassis,chassis,3.12,37.7607,68.8332,-20.4564,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W13_chassis,data/R5_wiring.json
+Wire,W14_chassis,chassis,4.68,60.2672,67.3518,-17.6701,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W14_chassis,data/R5_wiring.json
+Wire,W15_chassis,chassis,2.86,-1.7244,47.0548,-25.6385,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W15_chassis,data/R5_wiring.json
+Wire,W16_chassis,chassis,1.76,-29.5061,77.2277,-12.2142,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W16_chassis,data/R5_wiring.json
+Wire,W17_chassis,chassis,1.87,35.1971,43.7373,-26.6284,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W17_chassis,data/R5_wiring.json
+Wire,W18_chassis,chassis,2.2,42.7973,26.4709,-30.432,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W18_chassis,data/R5_wiring.json
+Wire,W19_chassis,chassis,6.3,-21.9824,32.9149,18.1867,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W19_chassis,data/R5_wiring.json
+Wire,W20_chassis,chassis,6.52,-24.1161,19.3205,17.3715,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W20_chassis,data/R5_wiring.json
+Wire,W21_chassis,chassis,2.64,-16.9614,-17.3429,13.4457,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W21_chassis,data/R5_wiring.json
+Wire,W22_chassis,chassis,2.97,-19.35,-39.0964,11.7035,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W22_chassis,data/R5_wiring.json
+Wire,W23_chassis,chassis,2.31,55.237,-18.9035,27.3993,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W23_chassis,data/R5_wiring.json
+Wire,W24_chassis,chassis,2.31,58.3809,-19.9151,26.9725,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W24_chassis,data/R5_wiring.json
+Wire,W25_chassis,chassis,3.3,-32.311,-33.5691,24.196,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,MID选装,,data/R5_wiring.json
+Wire,W26_chassis,chassis,3.63,-33.8004,-27.7887,26.779,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,MID选装,,data/R5_wiring.json
+Wire,W27_chassis,chassis,8.45,41.1467,-5.2017,95.5419,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W27_chassis,data/R5_wiring.json
+Wire,W28_chassis,chassis,14.25,-51.5556,1.5191,96.1047,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W28_chassis,data/R5_wiring.json
+Wire,W29_chassis,chassis,31.0,24.454,-43.8285,68.3525,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W29_chassis,data/R5_wiring.json
+Wire,W30_chassis,chassis,10.0,-57.8007,-13.0646,70.0353,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W30_chassis,data/R5_wiring.json
+Wire,W31_chassis,chassis,1.84,-92.2515,-2.3691,139.8668,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,MID选装,,data/R5_wiring.json
+Wire,W32_chassis,chassis,1.5,-83.225,-2.6337,124.5445,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,MID选装,,data/R5_wiring.json
+Wire,W33_chassis,chassis,1.15,-86.8383,-13.6046,114.4993,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,MID选装,,data/R5_wiring.json
+Wire,W34_chassis,chassis,2.76,-75.4034,64.8699,90.811,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,MID选装,,data/R5_wiring.json
+Wire,W36_chassis,chassis,0.62,-21.1,-39.9852,57.6065,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W36_chassis,data/R5_wiring.json
+Wire,W37_chassis,chassis,0.38,-25.0565,-33.8389,55.7479,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W37_chassis,data/R5_wiring.json
+Wire,W38_chassis,chassis,0.38,-22.5382,-32.9183,53.6244,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W38_chassis,data/R5_wiring.json
+Wire,W39_chassis,chassis,2.69,0.9526,-35.815,57.0849,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W39_chassis,data/R5_wiring.json
+Wire,W40_chassis,chassis,5.61,43.0008,-19.3054,19.3047,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W40_chassis,data/R5_wiring.json
+Wire,W41_chassis,chassis,5.44,23.9819,-12.3518,23.8457,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W41_chassis,data/R5_wiring.json
+Wire,W42_chassis,chassis,1.73,32.7892,-1.351,48.8371,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W42_chassis,data/R5_wiring.json
+Wire,W43_chassis,chassis,0.53,16.6407,-11.0725,58.2116,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W43_chassis,data/R5_wiring.json
+Wire,W44_chassis,chassis,1.1,18.7562,-13.0074,61.3829,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W44_chassis,data/R5_wiring.json
+Wire,W45_chassis,chassis,2.21,68.8306,57.3414,-16.323,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W45_chassis,data/R5_wiring.json
+Wire,W46_chassis,chassis,1.53,103.0932,57.6767,-20.8094,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W46_chassis,data/R5_wiring.json
+Wire,W47_chassis,chassis,4.62,78.9942,117.5446,16.5295,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W47_chassis,data/R5_wiring.json
+Wire,W48_chassis,chassis,1.44,47.516,39.4185,18.5277,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W48_chassis,data/R5_wiring.json
+Wire,W49_chassis,chassis,1.63,31.9511,72.7033,43.0794,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W49_chassis,data/R5_wiring.json
+Wire,W50_chassis,chassis,7.64224,147.4762,150.0014,-48.7207,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W50_chassis,data/R5_wiring.json
+Wire,W50_FL_carrier,FL_carrier,7.79776,28.1992,-17.503,-102.084,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W50_FL_carrier,data/R5_wiring.json
+Wire,W51_chassis,chassis,3.4,-38.257,57.3369,-27.5459,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W51_chassis,data/R5_wiring.json
+Wire,W52_chassis,chassis,4.76,-11.4888,55.4614,-7.1713,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W52_chassis,data/R5_wiring.json
+Wire,W53_chassis,chassis,6.6,17.3658,107.0327,22.5536,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W53_chassis,data/R5_wiring.json
+Wire,W54_chassis,chassis,1.63,-60.8931,45.0007,13.2872,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W54_chassis,data/R5_wiring.json
+Wire,W55_chassis,chassis,1.58,-67.2861,56.9387,20.2417,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W55_chassis,data/R5_wiring.json
+Wire,W56_chassis,chassis,7.64224,-147.4762,150.0014,-48.7207,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W56_chassis,data/R5_wiring.json
+Wire,W56_RL_carrier,RL_carrier,7.79776,-28.1992,-17.503,-102.084,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W56_RL_carrier,data/R5_wiring.json
+Wire,W57_chassis,chassis,1.3,7.6547,26.0409,24.3425,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W57_chassis,data/R5_wiring.json
+Wire,W58_chassis,chassis,1.3,-0.6662,56.7749,15.3816,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W58_chassis,data/R5_wiring.json
+Wire,W59_chassis,chassis,3.4,60.6549,-49.2264,13.4651,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W59_chassis,data/R5_wiring.json
+Wire,W60_chassis,chassis,3.57,66.8655,-89.5276,15.9907,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W60_chassis,data/R5_wiring.json
+Wire,W61_chassis,chassis,0.38,28.678,-65.7983,46.1681,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W61_chassis,data/R5_wiring.json
+Wire,W62_chassis,chassis,0.24,2.4045,-73.2829,50.0653,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W62_chassis,data/R5_wiring.json
+Wire,W63_chassis,chassis,0.48,4.1896,-77.1834,51.08,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W63_chassis,data/R5_wiring.json
+Wire,W64_chassis,chassis,3.23,71.7883,0.7772,-15.4492,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W64_chassis,data/R5_wiring.json
+Wire,W65_chassis,chassis,2.89,97.0656,-7.2969,-23.9788,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W65_chassis,data/R5_wiring.json
+Wire,W66_chassis,chassis,4.62,76.6528,-116.6295,16.3802,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W66_chassis,data/R5_wiring.json
+Wire,W67_chassis,chassis,1.2,28.5018,-104.0081,21.9249,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W67_chassis,data/R5_wiring.json
+Wire,W68_chassis,chassis,1.34,14.8305,-98.2719,27.2119,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W68_chassis,data/R5_wiring.json
+Wire,W69_chassis,chassis,7.64224,147.4762,-150.0014,-48.7207,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W69_chassis,data/R5_wiring.json
+Wire,W69_FR_carrier,FR_carrier,7.79776,28.1992,17.503,-102.084,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W69_FR_carrier,data/R5_wiring.json
+Wire,W70_chassis,chassis,4.59,-17.0143,-14.8576,-4.5731,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W70_chassis,data/R5_wiring.json
+Wire,W71_chassis,chassis,5.44,1.3872,-23.6332,-7.1454,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W71_chassis,data/R5_wiring.json
+Wire,W72_chassis,chassis,6.16,12.482,-120.4519,16.7194,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W72_chassis,data/R5_wiring.json
+Wire,W73_chassis,chassis,1.1,-38.9626,-107.6191,20.3789,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W73_chassis,data/R5_wiring.json
+Wire,W74_chassis,chassis,1.25,-53.6955,-99.3685,31.2237,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W74_chassis,data/R5_wiring.json
+Wire,W75_chassis,chassis,7.64224,-147.4762,-150.0014,-48.7207,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W75_chassis,data/R5_wiring.json
+Wire,W75_RR_carrier,RR_carrier,7.79776,-28.1992,17.503,-102.084,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W75_RR_carrier,data/R5_wiring.json
+Wire,W76_chassis,chassis,1.2,37.8416,-23.4831,38.1542,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W76_chassis,data/R5_wiring.json
+Wire,W77_chassis,chassis,1.3,-0.2171,-58.7942,14.5708,线束估算,R5走线质量；活动束按弧长对半分配到车身和轮架,首车,item_W77_chassis,data/R5_wiring.json
+Connectors,Fixed_loom_allowance,chassis,24.016,11.0,0.0,24.0,装车估算,原固定线束总计扣除路径质量后的接插件余量,首车,item_Fixed_loom_allowance,
+Misc,Straps_pads_misc,chassis,22.25175,0.0,0.0,1.0,装车估算,78 g原安装辅料包扣除本版已单列的新增螺钉、螺母；含软垫和绑带,首车,item_Straps_pads_misc,
+MidHarness,Optional_stock_cable_allowance,chassis,48.24735,-26.0,0.0,94.0,装车估算,选装原厂线及增量紧固件原留84 g，扣除已单列的选装布线和紧固件,MID选装,,

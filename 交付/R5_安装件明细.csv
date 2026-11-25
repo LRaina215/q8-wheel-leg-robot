@@ -1,0 +1,25 @@
+﻿零件,名称,首车数量,MID选装增量,装配实例
+Astra_saddle,相机端部承托块,2,0,Astra_saddle_1 / Astra_saddle_2
+B2x16,M2×16 内六角圆柱头螺钉,4,0,MC_S1 / MC_S2 / MC_S3 / MC_S4
+B3x12,M3×12 内六角圆柱头螺钉,7,0,Driver_S1 / Driver_S2 / Driver_S3 / Driver_S4 / Power_S1 / Power_S2 / Power_S3
+B3x22,M3×22 内六角圆柱头螺钉,4,0,Jet_S1 / Jet_S2 / Jet_S3 / Jet_S4
+B3x8,M3×8 内六角圆柱头螺钉,8,4,XT_upper_S1 / XT_upper_S2 / XT_upper_S3 / XT_upper_S4 / XT_lower_S1 / XT_lower_S2 / XT_lower_S3 / XT_lower_S4 / MID_sensor_S1 / MID_sensor_S2 / MID_sensor_S3 / MID_sensor_S4
+B4x10,M4×10 内六角圆柱头螺钉,0,8,MID_columns_lower_S1 / MID_columns_lower_S2 / MID_columns_lower_S3 / MID_columns_lower_S4 / MID_columns_upper_S1 / MID_columns_upper_S2 / MID_columns_upper_S3 / MID_columns_upper_S4
+B4x16,M4×16 内六角圆柱头螺钉,6,0,Deck_S1 / Deck_S2 / Deck_S3 / Deck_S4 / Deck_S5 / Deck_S6
+B5bolt,M5×22 髋座螺栓,16,0,B5bolt_1 / B5bolt_2 / B5bolt_3 / B5bolt_4 / B5bolt_5 / B5bolt_6 / B5bolt_7 / B5bolt_8 / B5bolt_9 / B5bolt_10 / B5bolt_11 / B5bolt_12 / B5bolt_13 / B5bolt_14 / B5bolt_15 / B5bolt_16
+B5nut,M5 锁母,16,0,B5nut_1 / B5nut_2 / B5nut_3 / B5nut_4 / B5nut_5 / B5nut_6 / B5nut_7 / B5nut_8 / B5nut_9 / B5nut_10 / B5nut_11 / B5nut_12 / B5nut_13 / B5nut_14 / B5nut_15 / B5nut_16
+B5washer,M5 平垫,32,0,B5washer_1 / B5washer_2 / B5washer_3 / B5washer_4 / B5washer_5 / B5washer_6 / B5washer_7 / B5washer_8 / B5washer_9 / B5washer_10 / B5washer_11 / B5washer_12 / B5washer_13 / B5washer_14 / B5washer_15 / B5washer_16 / B5washer_17 / B5washer_18 / B5washer_19 / B5washer_20 / B5washer_21 / B5washer_22 / B5washer_23 / B5washer_24 / B5washer_25 / B5washer_26 / B5washer_27 / B5washer_28 / B5washer_29 / B5washer_30 / B5washer_31 / B5washer_32
+Bridge_tray,55 mm 双路轮驱板托盘,2,0,Bridge_tray_1 / Bridge_tray_2
+BuckTray,双降压板绝缘托架,1,0,BuckTray_1
+Chassis,一体底盆与四角侧耳,1,0,Chassis_1
+Deck,上层设备板与前伸相机座,1,0,Deck_1
+Flat3x10,M3×10 沉头螺钉,4,0,Astra_S1 / Astra_S2 / Astra_S3 / Astra_S4
+JetClamp,Jetson 底座边缘压爪,4,0,Jet_clamp_1 / Jet_clamp_2 / Jet_clamp_3 / Jet_clamp_4
+Lsp100,扩展 M4 铝支柱 100 mm,0,4,Lsp100_1 / Lsp100_2 / Lsp100_3 / Lsp100_4
+MID_fit,MID360 孔位试装横架,0,1,MID_fit_1
+Msp,MC02 M2 隔套,4,0,Msp_1 / Msp_2 / Msp_3 / Msp_4
+Nut2,M2 六角螺母,4,0,MC_N1 / MC_N2 / MC_N3 / MC_N4
+Nut3,M3 六角螺母,15,0,Jet_N1 / Jet_N2 / Jet_N3 / Jet_N4 / Driver_N1 / Driver_N2 / Driver_N3 / Driver_N4 / Astra_N1 / Astra_N2 / Astra_N3 / Astra_N4 / Power_N1 / Power_N2 / Power_N3
+Nut4,M4 六角螺母,6,0,Deck_N1 / Deck_N2 / Deck_N3 / Deck_N4 / Deck_N5 / Deck_N6
+XT_saddle,竖装雷达鞍座与扎带槽,1,0,XT_saddle_1
+Xsp,雷达 M3 双通隔柱,4,0,Xsp_1 / Xsp_2 / Xsp_3 / Xsp_4

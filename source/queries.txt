@@ -1,0 +1,52 @@
+MC02|达妙 MC02 H7 主控
+DRV|DFRobot DRI0041 7A 双路
+BAT|格氏 Tattu R-Line V5 2200 6S 150C
+AUX|恩珀 24V转15V 5A 降压
+BUCK|24V转12V 30A 360W 防水 降压
+PDB|航模 XT60 并联 分电板 四路
+FUSE|汽车 MIDI ANS 保险丝座 40A
+Astra|奥比中光 Astra Pro Plus 深度相机
+XT|芯探 XT-M60 激光雷达
+JET|Jetson Orin Nano 8GB 官方开发套件
+MID|Livox MID360 激光雷达
+H01|夹紧联轴器 6转8 D20 L25
+H02|8mm h6 60mm 精密光轴
+H03|608-2RS 8 22 7 轴承
+H04|Pololu 2693 8mm 轮毂 M3
+H05|内径8 外径12 长8 隔套 不锈钢
+H06|8x12 调整垫片 1.5mm 2mm 1mm
+H08|M4 双通 六角 铝柱 30mm
+H09|8x10x10 无油 轴套 塑料
+H10|塞打螺丝 8x12 M6 肩螺丝
+H11|M6 六角螺母 M3 六角螺母
+H13|丁腈 O型圈 内径95 线径5 NBR
+S|12.9级 圆柱头 内六角 螺丝 M3 M4 M5
+S03|M3x7 内六角 圆柱头 螺丝
+PETG|拓竹 A1 PETG HF 线材
+mount|M5 自锁螺母 平垫 M5
+nut|M3 M4 热熔铜螺母 打印
+post|M3 M4 双通 六角铝柱 隔离柱 100mm
+belt|航模 电池 魔术扎带 20mm 防滑
+line|航模 硅胶线 14AWG 16AWG 18AWG 22AWG
+plug|艾迈斯 XT60U XT30U 公母头
+term|万可 221-415 五线 分线端子
+can|达妙 关节电机 CAN 连接线 4310M
+ether|CAT6 超短 跳线 软线 0.3米
+usb|USB3.0 短线 A 公 深度相机 延长线
+sock|DC5525 公头 螺丝接线 直流电源线
+balance|格氏 6S XT60 平衡充电器 航模
+ssd|M.2 2280 NVMe 固态硬盘 256G
+optnet|USB3.0 千兆网卡 RTL8153
+optharness|览沃 MID360 一分三 线 M12
+plate|6061 铝板 3mm 打孔 定制
+level|74LVC2G17 5V 转 3.3V 编码器 电平转换
+f2|汽车 插片保险盒 保险片 MINI 7.5A 15A
+strap|尼龙扎带 胶布 热缩管 线束保护套
+branch|XT60 并联一分四 连接线 分电
+switch|XT90S 防打火 艾迈斯 公母
+lug|冷压端子 铜鼻子 M5 环形端子
+m2|M2 M2.5 铜柱 螺丝 M2 平垫
+foot|硅胶 防滑垫 1mm 电池
+H04alt|8mm 六孔 M3 法兰轮毂 定制 19.05
+board|PCB 小批量 打样 电路板 2层
+limit|轮电机 电容 低ESR 35V TVS 刹车泄放 模块

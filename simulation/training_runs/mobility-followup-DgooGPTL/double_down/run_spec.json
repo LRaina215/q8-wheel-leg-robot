@@ -1,0 +1,29 @@
+{
+  "task": "double_down",
+  "seed": 63112503,
+  "worlds": 128,
+  "updates": 540,
+  "steps_per_episode": 135,
+  "mass_kg": 6.568505742216555,
+  "config": [
+    0.14,
+    0.64,
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    0.0
+  ],
+  "policy_period_s": 0.04,
+  "physics_period_s": 0.002,
+  "cases": [
+    40,
+    60,
+    80
+  ],
+  "lane": "double_down",
+  "initialized_from": "/home/user/q8_r5_trials/flat-b1AeSzKu/mobility-followup-DgooGPTL/frozen/double_down",
+  "output": "actor_best.onnx plus Controller in follow_env.py with its per-episode state",
+  "recover_protocol": "first variant cued; second variant blind with random impulse time; all final recovery tests are blind"
+}

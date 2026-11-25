@@ -1,0 +1,18 @@
+grub|M3 10 凹端紧定螺钉
+bush|易格斯 JSM 0810 10
+sleeve|8x12 隔套 铝
+battery|格氏 2200mah 6S 22.2V
+wbr|直流电机 再生制动 泄放模块
+bw|24V转12V30A 360W
+aux15|24V转15V5A
+lock|M5 尼龙锁紧螺母 304
+washer|M5 平垫圈 304
+steel|12.9级 M3 M4 M5 杯头
+c5|M5x22 内六角
+logic5|5V 降压 车载 3A 模块
+canend|CAN 终端电阻 120欧
+insert|M4 螺纹 自攻 塑料 螺丝
+sleeve2|8X12X8 轴套
+bench|MGN12 滑轨 滑块
+scale|厨房电子秤 5kg 1g
+screwpaste|243 中强度 螺纹胶

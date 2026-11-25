@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="q8_r5">
+  <link name="chassis">
+    <inertial>
+      <origin xyz="0.00951572017 0.00478603028 0.00697343503" />
+      <mass value="3.4536967088743626" />
+      <inertia ixx="0.0315437633" iyy="0.0266222455" izz="0.0468839328" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 -.025" />
+      <geometry>
+        <box size="0.166 0.236 0.048" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -.025" />
+      <geometry>
+        <box size="0.166 0.236 0.048" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="FL_hip">
+    <inertial>
+      <origin xyz="0.0248203826 0.00740562072 6.86107305e-19" />
+      <mass value="0.07397419543969626" />
+      <inertia ixx="1.24277188e-05" iyy="0.000114291818" izz="0.000110535088" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.055 0 0" rpy="0 1.57079633 0" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="FL_hip" type="revolute">
+    <origin xyz="0.112 0.119 0" />
+    <parent link="chassis" />
+    <child link="FL_hip" />
+    <axis xyz="0 1 0" />
+    <limit effort="5.2" velocity="24.3" lower="-.628318531" upper=".383972435" />
+  </joint>
+  <link name="FL_carrier">
+    <inertial>
+      <origin xyz="0.000282604071 -0.00167578647 -0.104258715" />
+      <mass value="0.3951598614160262" />
+      <inertia ixx="0.000932743658" iyy="0.00047375203" izz="0.000597853375" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0.043 -0.055" rpy="0 2.47803693 1.57079633" />
+      <geometry>
+        <cylinder radius=".006" length="0.1396280774056565" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="FL_carrier" type="revolute">
+    <origin xyz="0.11 0 0" />
+    <parent link="FL_hip" />
+    <child link="FL_carrier" />
+    <axis xyz="0 1 0" />
+    <limit effort="0" velocity="24.3" lower="-.383972435" upper=".628318531" />
+    <mimic joint="FL_hip" multiplier="-1" />
+  </joint>
+  <link name="FL_wheel">
+    <inertial>
+      <origin xyz="5.88219239e-18 -0.0155648009 0" />
+      <mass value="0.1398282452833074" />
+      <inertia ixx="0.000151319597" iyy="0.000108728145" izz="0.000151271597" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FL_wheel" type="continuous">
+    <origin xyz="0 0.086 -0.11" />
+    <parent link="FL_carrier" />
+    <child link="FL_wheel" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="12.78" />
+  </joint>
+  <link name="FL_follower">
+    <inertial>
+      <origin xyz="0.055 0.013 8.31682587e-19" />
+      <mass value="0.02761352064237935" />
+      <inertia ixx="1.27993423e-06" iyy="4.20126029e-05" izz="4.11928941e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.055 0 0" rpy="0 1.57079633 0" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="FL_follower" type="revolute">
+    <origin xyz="0.112 0.119 -0.062" />
+    <parent link="chassis" />
+    <child link="FL_follower" />
+    <axis xyz="0 1 0" />
+    <limit effort="0" velocity="24.3" lower="-.628318531" upper=".383972435" />
+    <mimic joint="FL_hip" multiplier="1" />
+  </joint>
+  <link name="FR_hip">
+    <inertial>
+      <origin xyz="0.0248203826 -0.00740562072 6.86107305e-19" />
+      <mass value="0.07397419543969626" />
+      <inertia ixx="1.24277188e-05" iyy="0.000114291818" izz="0.000110535088" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.055 0 0" rpy="0 1.57079633 0" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="FR_hip" type="revolute">
+    <origin xyz="0.112 -0.119 0" />
+    <parent link="chassis" />
+    <child link="FR_hip" />
+    <axis xyz="0 1 0" />
+    <limit effort="5.2" velocity="24.3" lower="-.628318531" upper=".383972435" />
+  </joint>
+  <link name="FR_carrier">
+    <inertial>
+      <origin xyz="0.000282604071 0.00167578647 -0.104258715" />
+      <mass value="0.3951598614160262" />
+      <inertia ixx="0.000932743658" iyy="0.00047375203" izz="0.000597853375" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 -0.043 -0.055" rpy="0 2.47803693 -1.57079633" />
+      <geometry>
+        <cylinder radius=".006" length="0.1396280774056565" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="FR_carrier" type="revolute">
+    <origin xyz="0.11 0 0" />
+    <parent link="FR_hip" />
+    <child link="FR_carrier" />
+    <axis xyz="0 1 0" />
+    <limit effort="0" velocity="24.3" lower="-.383972435" upper=".628318531" />
+    <mimic joint="FR_hip" multiplier="-1" />
+  </joint>
+  <link name="FR_wheel">
+    <inertial>
+      <origin xyz="5.88219239e-18 0.0155648009 0" />
+      <mass value="0.1398282452833074" />
+      <inertia ixx="0.000151319597" iyy="0.000108728145" izz="0.000151271597" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FR_wheel" type="continuous">
+    <origin xyz="0 -0.086 -0.11" />
+    <parent link="FR_carrier" />
+    <child link="FR_wheel" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="12.78" />
+  </joint>
+  <link name="FR_follower">
+    <inertial>
+      <origin xyz="0.055 -0.013 8.31682587e-19" />
+      <mass value="0.02761352064237935" />
+      <inertia ixx="1.27993423e-06" iyy="4.20126029e-05" izz="4.11928941e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.055 0 0" rpy="0 1.57079633 0" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="FR_follower" type="revolute">
+    <origin xyz="0.112 -0.119 -0.062" />
+    <parent link="chassis" />
+    <child link="FR_follower" />
+    <axis xyz="0 1 0" />
+    <limit effort="0" velocity="24.3" lower="-.628318531" upper=".383972435" />
+    <mimic joint="FR_hip" multiplier="1" />
+  </joint>
+  <link name="RL_hip">
+    <inertial>
+      <origin xyz="-0.0248203826 0.00740562072 6.86107305e-19" />
+      <mass value="0.07397419543969626" />
+      <inertia ixx="1.24277188e-05" iyy="0.000114291818" izz="0.000110535088" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.055 0 0" rpy="0 1.57079633 3.14159265" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="RL_hip" type="revolute">
+    <origin xyz="-0.112 0.119 0" />
+    <parent link="chassis" />
+    <child link="RL_hip" />
+    <axis xyz="0 -1 0" />
+    <limit effort="5.2" velocity="24.3" lower="-.628318531" upper=".383972435" />
+  </joint>
+  <link name="RL_carrier">
+    <inertial>
+      <origin xyz="-0.000282604071 -0.00167578647 -0.104258715" />
+      <mass value="0.3951598614160262" />
+      <inertia ixx="0.000932743658" iyy="0.00047375203" izz="0.000597853375" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0.043 -0.055" rpy="0 2.47803693 1.57079633" />
+      <geometry>
+        <cylinder radius=".006" length="0.1396280774056565" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="RL_carrier" type="revolute">
+    <origin xyz="-0.11 0 0" />
+    <parent link="RL_hip" />
+    <child link="RL_carrier" />
+    <axis xyz="0 -1 0" />
+    <limit effort="0" velocity="24.3" lower="-.383972435" upper=".628318531" />
+    <mimic joint="RL_hip" multiplier="-1" />
+  </joint>
+  <link name="RL_wheel">
+    <inertial>
+      <origin xyz="-5.88219239e-18 -0.0155648009 0" />
+      <mass value="0.1398282452833074" />
+      <inertia ixx="0.000151319597" iyy="0.000108728145" izz="0.000151271597" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="RL_wheel" type="continuous">
+    <origin xyz="0 0.086 -0.11" />
+    <parent link="RL_carrier" />
+    <child link="RL_wheel" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="12.78" />
+  </joint>
+  <link name="RL_follower">
+    <inertial>
+      <origin xyz="-0.055 0.013 8.31682587e-19" />
+      <mass value="0.02761352064237935" />
+      <inertia ixx="1.27993423e-06" iyy="4.20126029e-05" izz="4.11928941e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.055 0 0" rpy="0 1.57079633 3.14159265" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="RL_follower" type="revolute">
+    <origin xyz="-0.112 0.119 -0.062" />
+    <parent link="chassis" />
+    <child link="RL_follower" />
+    <axis xyz="0 -1 0" />
+    <limit effort="0" velocity="24.3" lower="-.628318531" upper=".383972435" />
+    <mimic joint="RL_hip" multiplier="1" />
+  </joint>
+  <link name="RR_hip">
+    <inertial>
+      <origin xyz="-0.0248203826 -0.00740562072 6.86107305e-19" />
+      <mass value="0.07397419543969626" />
+      <inertia ixx="1.24277188e-05" iyy="0.000114291818" izz="0.000110535088" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.055 0 0" rpy="0 1.57079633 3.14159265" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="RR_hip" type="revolute">
+    <origin xyz="-0.112 -0.119 0" />
+    <parent link="chassis" />
+    <child link="RR_hip" />
+    <axis xyz="0 -1 0" />
+    <limit effort="5.2" velocity="24.3" lower="-.628318531" upper=".383972435" />
+  </joint>
+  <link name="RR_carrier">
+    <inertial>
+      <origin xyz="-0.000282604071 0.00167578647 -0.104258715" />
+      <mass value="0.3951598614160262" />
+      <inertia ixx="0.000932743658" iyy="0.00047375203" izz="0.000597853375" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 -0.043 -0.055" rpy="0 2.47803693 -1.57079633" />
+      <geometry>
+        <cylinder radius=".006" length="0.1396280774056565" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="RR_carrier" type="revolute">
+    <origin xyz="-0.11 0 0" />
+    <parent link="RR_hip" />
+    <child link="RR_carrier" />
+    <axis xyz="0 -1 0" />
+    <limit effort="0" velocity="24.3" lower="-.383972435" upper=".628318531" />
+    <mimic joint="RR_hip" multiplier="-1" />
+  </joint>
+  <link name="RR_wheel">
+    <inertial>
+      <origin xyz="-5.88219239e-18 0.0155648009 0" />
+      <mass value="0.1398282452833074" />
+      <inertia ixx="0.000151319597" iyy="0.000108728145" izz="0.000151271597" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 0 0" />
+      <geometry>
+        <cylinder radius=".05" length=".035" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="RR_wheel" type="continuous">
+    <origin xyz="0 -0.086 -0.11" />
+    <parent link="RR_carrier" />
+    <child link="RR_wheel" />
+    <axis xyz="0 1 0" />
+    <limit effort="1" velocity="12.78" />
+  </joint>
+  <link name="RR_follower">
+    <inertial>
+      <origin xyz="-0.055 -0.013 8.31682587e-19" />
+      <mass value="0.02761352064237935" />
+      <inertia ixx="1.27993423e-06" iyy="4.20126029e-05" izz="4.11928941e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.055 0 0" rpy="0 1.57079633 3.14159265" />
+      <geometry>
+        <cylinder radius=".006" length="0.11" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="RR_follower" type="revolute">
+    <origin xyz="-0.112 -0.119 -0.062" />
+    <parent link="chassis" />
+    <child link="RR_follower" />
+    <axis xyz="0 -1 0" />
+    <limit effort="0" velocity="24.3" lower="-.628318531" upper=".383972435" />
+    <mimic joint="RR_hip" multiplier="1" />
+  </joint>
+</robot>

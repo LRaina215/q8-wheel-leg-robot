@@ -1,0 +1,28 @@
+{
+  "task": "double_down",
+  "seed": 25112506,
+  "worlds": 160,
+  "updates": 500,
+  "steps_per_episode": 135,
+  "mass_kg": 6.568505742216555,
+  "config": [
+    0.14,
+    0.64,
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    0.0
+  ],
+  "policy_period_s": 0.04,
+  "physics_period_s": 0.002,
+  "cases": [
+    40,
+    60,
+    80
+  ],
+  "initialized_from": "small residual over analytic reference",
+  "output": "actor_best.onnx plus commands() in night_tasks.py; native tests use the same decoder",
+  "recover_protocol": "first variant cued; second variant blind with random impulse time; all final recovery tests are blind"
+}

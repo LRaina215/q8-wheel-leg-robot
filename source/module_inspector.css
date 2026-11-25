@@ -1,0 +1,45 @@
+#viewer { scroll-margin-top: 12px; }
+.module-panel { padding: 17px 16px 14px; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.module-panel h2 { font-size: 22px; margin: 0; }
+.module-panel input, .module-panel select { width: 100%; font: inherit; color: var(--ink); background: white; border: 1px solid #abc0b7; border-radius: 5px; padding: 5px 8px; min-width: 0; }
+.module-panel input:focus-visible, .module-panel button:focus-visible, .module-panel select:focus-visible { outline: 2px solid var(--teal); outline-offset: 1px; }
+.module-directory { overflow: auto; height: clamp(156px, 19vw, 240px); border: 1px solid var(--line); border-radius: 6px; scrollbar-width: thin; overscroll-behavior: contain; }
+.module-directory h3 { position: sticky; top: 0; z-index: 1; background: #edf3ee; margin: 0; padding: 4px 8px; color: #49645a; font-size: 12px; }
+.module-directory button { width: 100%; border: 0; border-radius: 0; text-align: left; padding: 5px 9px; background: white; font-size: 14px; display: flex; gap: 6px; align-items: baseline; justify-content: space-between; }
+.module-directory button:hover { background: #f0f6f3; }
+.module-directory button[aria-pressed=true] { background: #d6ede4; color: #104d42; box-shadow: inset 3px 0 var(--teal); }
+.module-directory button small { font-size: 11px; white-space: nowrap; }
+.module-directory p { padding: 4px 9px; }
+.inspector-detail { border-top: 1px solid var(--line); padding-top: 8px; }
+.inspector-detail h3 { font-size: 19px; line-height: 1.35; margin: 2px 0 4px; }
+.inspector-detail p { margin: 4px 0; line-height: 1.45; font-size: 14px; }
+.inspector-detail label { font-size: 13px; }
+.inspector-detail select { padding: 3px 5px; font-size: 13px; margin-bottom: 5px; }
+.inspector-actions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.inspector-actions button { font-size: 13px; padding: 3px 8px; }
+#viewer .views { align-items: center; }
+#scene { position: relative; overflow: hidden; }
+#scene canvas { cursor: grab; }
+#scene canvas.over-part { cursor: pointer; }
+#scene canvas.rotating { cursor: grabbing; }
+#pinLayer { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+#pinLayer g { pointer-events: auto; cursor: pointer; }
+#pinLayer line { pointer-events: none; stroke: #41665d; stroke-width: 1.3; }
+#pinLayer circle { fill: #365f54; stroke: white; stroke-width: 1.3; pointer-events: none; }
+#pinLayer rect { fill: #fffffff5; stroke: #bbcdc3; }
+#pinLayer text { fill: #21453c; text-anchor: middle; font: 12px 'Microsoft YaHei',system-ui,sans-serif; }
+#pinLayer g.active rect { fill: #ffe9a7; stroke: #b87b12; }
+#pinLayer g.active line { stroke: #a66400; stroke-width: 1.8; }
+#pinLayer g.active circle { fill: #ffab2d; }
+#partHint { position: absolute; z-index: 1; pointer-events: none; color: white; background: #1b3e36f5; border-radius: 4px; padding: 3px 7px; max-width: calc(100% - 8px); font-size: 12px; }
+#configuration { display: grid; grid-template-columns: minmax(210px,1.3fr) minmax(135px,.75fr) minmax(155px,.85fr) minmax(280px,2fr); gap: 16px; align-items: center; padding: 16px 18px; margin-top: 12px; background: white; border: 1px solid var(--line); border-radius: 8px; }
+#configuration label { font-size: 13px; color: var(--muted); }
+#configuration select { display: block; width: 100%; margin-top: 3px; }
+#configuration .big { font-size: 27px; }
+#configuration .stats { grid-template-columns: repeat(4,minmax(0,1fr)); }
+#configuration .stat { border: 0; font-size: 12px; }
+#configuration .stat strong { font-size: 16px; white-space: nowrap; }
+.part-link { border: 0; background: transparent; padding: 0; text-align: left; text-decoration: underline; text-underline-offset: 3px; color: var(--teal); }
+@media(max-width:1000px){#configuration {grid-template-columns:1fr 1fr;} #configuration .stats {grid-template-columns:repeat(2,1fr);} }
+@media(max-width:760px){.module-panel {padding:12px;gap:6px;} .module-directory {height:140px;} .module-panel:has(.inspector-detail:not([hidden])) .module-directory {height:110px;} .views {padding:7px;} #configuration {padding:12px;gap:10px;} #configuration .big {font-size:23px;} }
+
